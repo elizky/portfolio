@@ -1,22 +1,17 @@
-import me from '../app/avatar.jpg';
+import me from '../app/avatar.png';
 
-export const name = 'Lee Robinson';
+export const name = 'Nicolas Gonzalez';
 export const avatar = me;
-export const about = () => {
-  return (
-    <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
-    </>
-  );
-};
-export const bio = () => {
-  return (
-    <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
-    </>
-  );
-};
+
+export const about = [
+  " Hey there, I'm Nico, but you can also call me Izky! I'm a passionate Front End developer who loves turning ideas into amazing web experiences.",
+];
+
+export const bio = [
+  "When I'm not diving into lines of code, I like to let my creativity soar through music,playing it and composing songs.",
+  " I'm also a sports fan and enjoy watching games with friends, always cheering for my team, Boca Juniors!",
+];
+
+export const cta = [
+  "If you're looking for a passionate, creative, and dedicated Front End developer, you've come to the right place! Let me help you take your web projects to the next level.",
+];
