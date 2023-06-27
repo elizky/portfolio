@@ -31,7 +31,7 @@ const ProjectsPage = () => {
               <ArrowIcon />
             </Link>
             <p className='mt-5 max-w-[600px]'>
-              This project is a secure and private digital diary. It was inspired by the need for a
+              This project is a secure and private digital journal. It was inspired by the need for a
               space where I can express myself authentically and safely store my personal thoughts
               and memories. Feel free to explore this project{' '}
               <Link

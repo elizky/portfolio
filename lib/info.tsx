@@ -8,7 +8,7 @@ export const about = [
 ];
 
 export const bio = [
-  "When I'm not diving into lines of code, I like to let my creativity soar through music,playing it and composing songs.",
+  "When I'm not diving into lines of code, I like to let my creativity soar by playing music it and composing songs.",
   " I'm also a sports fan and enjoy watching games with friends, always cheering for my team, Boca Juniors!",
 ];
 
