@@ -24,9 +24,8 @@ const ProjectsPage = () => {
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
             <Link
-              href='https://bitacorizky.vercel.app/'
+              href='/projects/bitacora'
               className='flex items-baseline gap-4 text-accent underline-offset-8 transition-all hover:pl-4 hover:font-extrabold  hover:no-underline'
-              target='_blank'
             >
               <h3 className='text-accent'>Bitacora</h3>
               <ArrowIcon />
@@ -34,14 +33,20 @@ const ProjectsPage = () => {
             <p className='mt-5 max-w-[600px]'>
               This project is a secure and private digital diary. It was inspired by the need for a
               space where I can express myself authentically and safely store my personal thoughts
-              and memories. Feel free to explore this project [here]
+              and memories. Feel free to explore this project{' '}
+              <Link
+                href='https://bitacorizky.vercel.app/'
+                className=' text-accent transition-all  hover:font-extrabold '
+                target='_blank'
+              >
+                here
+              </Link>
             </p>
           </div>
           <div className='flex flex-col items-start'>
             <Link
-              href='https://calculatujuntin.vercel.app/'
+              href='/projects/calcula-tu-juntin'
               className='flex items-baseline gap-4 text-accent underline-offset-8 transition-all hover:pl-4 hover:font-extrabold  hover:no-underline'
-              target='_blank'
             >
               <h3 className='text-accent'>Calcula tu juntin</h3> <ArrowIcon />
             </Link>
@@ -49,8 +54,15 @@ const ProjectsPage = () => {
             <p className='mt-5 max-w-[600px]'>
               Here, you'll find a tool to calculate and evenly split expenses for an event among
               friends. The idea came to me while organizing gatherings with my friends, wanting to
-              avoid discussions about who paid for what. You can access this project [here](link to
-              the project).
+              avoid discussions about who paid for what. You can access this project{' '}
+              <Link
+                href='https://calculatujuntin.vercel.app/'
+                className=' text-accent transition-all  hover:font-extrabold '
+                target='_blank'
+              >
+                {' '}
+                here
+              </Link>
             </p>
           </div>
         </div>

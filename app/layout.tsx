@@ -23,15 +23,15 @@ export const metadata: Metadata = {
     default: 'Nicolas Gonzalez',
     template: '%s | Nicolas Gonzalez',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer, producer, and creator.',
   openGraph: {
     title: 'Nicolas Gonzalez',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
+    description: 'Developer, producer, and creator.',
+    url: 'https://izky.vercel.app',
     siteName: 'Nicolas Gonzalez',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://izky.vercel.app/og.jpg',
         width: 1920,
         height: 1080,
       },
