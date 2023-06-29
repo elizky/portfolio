@@ -1,4 +1,4 @@
-import me from '../public/avatar.png';
+import me from '../public/avatar-izky.png';
 
 export const name = 'Nicolas Gonzalez';
 export const avatar = me;
@@ -15,3 +15,19 @@ export const bio = [
 export const cta = [
   "If you're looking for a passionate, creative, and dedicated Front End developer, you've come to the right place! Let me help you take your web projects to the next level.",
 ];
+
+export const links = [
+  {
+    href: '/NicolasGonzalez-en.pdf',
+    text: 'get my resume'
+  },
+  {
+    href: 'https://www.linkedin.com/in/nicogonzalez22/',
+    text: 'write me on linkedin'
+  },
+  {
+    href: 'mailto:nigd22@google.com',
+    text: 'email me'
+  },
+
+]
