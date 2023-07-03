@@ -1,4 +1,4 @@
-import { librerizky } from 'info/projects';
+import { librerizkyEN } from 'info/projects';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const CalculaTuJuntinPage = () => {
-  const { title, description } = librerizky;
+  const { title, description } = librerizkyEN;
   return (
     <section className='projects'>
       <h1>{title}</h1>

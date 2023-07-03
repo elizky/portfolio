@@ -1,4 +1,4 @@
-import { ctj } from 'info/projects';
+import { ctjEN } from 'info/projects';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -7,7 +7,17 @@ export const metadata: Metadata = {
 };
 
 const CalculaTuJuntinPage = () => {
-  const { title, description, problem, stack, features } = ctj;
+  const {
+    title,
+    description,
+    problemTitle,
+    problemContent,
+    stackTitle,
+    stackContent,
+    featuresTitle,
+    featuresSubtitle,
+    featuresContent,
+  } = ctjEN;
   return (
     <section className='projects'>
       <h1>{title}</h1>
@@ -17,28 +27,26 @@ const CalculaTuJuntinPage = () => {
 
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Origen del problema</h3>
-            {problem.map((p) => (
+            <h3 className='text-accent'>{problemTitle}</h3>
+            {problemContent.map((p) => (
               <p className='mt-5 max-w-[600px]'>{p}</p>
             ))}
           </div>
         </div>
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Stack Tecnologico</h3>
-            {stack.map((s) => (
+            <h3 className='text-accent'>{stackTitle}</h3>
+            {stackContent.map((s) => (
               <p className='mt-5 max-w-[600px]'>{s}</p>
             ))}
           </div>
         </div>
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Features</h3>
-            <p className='mt-5 mb-0'>
-              Acá no hay mucha ciencia, pero lo importante a saber es que:
-            </p>
+            <h3 className='text-accent'>{featuresTitle}</h3>
+            <p className='mt-5 mb-0'> {featuresSubtitle}</p>
             <ul>
-              {features.map((f) => (
+              {featuresContent.map((f) => (
                 <li>{f}</li>
               ))}
             </ul>

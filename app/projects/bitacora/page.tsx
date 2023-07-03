@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 import { motion } from 'framer-motion';
-import { bitacora } from 'info/projects';
+import { bitacoraEN } from 'info/projects';
 
 export const metadata: Metadata = {
   title: 'Bitacora',
@@ -9,7 +9,17 @@ export const metadata: Metadata = {
 };
 
 const BitacoraPage = () => {
-  const { title, description, problem, stack, features } = bitacora;
+  const {
+    title,
+    description,
+    problemTitle,
+    problemContent,
+    stackTitle,
+    stackContent,
+    featuresTitle,
+    featuresSubtitle,
+    featuresContent,
+  } = bitacoraEN;
 
   return (
     <section className='projects'>
@@ -20,26 +30,26 @@ const BitacoraPage = () => {
 
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Origen del problema</h3>
-            {problem.map((p) => (
+            <h3 className='text-accent'>{problemTitle}</h3>
+            {problemContent.map((p) => (
               <p className='mt-5 max-w-[600px]'>{p}</p>
             ))}
           </div>
         </div>
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Stack Tecnologico</h3>
-            {stack.map((p) => (
+            <h3 className='text-accent'>{stackTitle}</h3>
+            {stackContent.map((p) => (
               <p className='mt-5 max-w-[600px]'>{p}</p>
             ))}
           </div>
         </div>
         <div className='my-8 divide-y '>
           <div className='flex flex-col items-start'>
-            <h3 className='text-accent'>Features</h3>
-            <p className='mt-5 mb-0'>Entre las features mas destacadas estan las siguientes</p>
+            <h3 className='text-accent'>{featuresTitle}</h3>
+            <p className='mt-5 mb-0'>{featuresSubtitle}</p>
             <ul>
-              {features.map((f) => (
+              {featuresContent.map((f) => (
                 <li>{f}</li>
               ))}
             </ul>
