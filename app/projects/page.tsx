@@ -13,7 +13,7 @@ const ProjectsPage = () => {
   return (
     <section className='projects'>
       <h1>{title}</h1>
-      <div className='prose text-white divide-y'>
+      <div className='prose text-black dark:text-white divide-y'>
         {aboutProjects.map((t) => (
           <p className='mt-5 max-w-[600px]'>{t}</p>
         ))}

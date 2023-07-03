@@ -64,3 +64,21 @@ export const ctj = {
     'Muestra en rojo quien debe',
   ],
 };
+export const librerizky = {
+  title: 'Librerizky',
+  description:
+    '¡Esta es mi propia Libreria! Pero todavía no esta lista. Cuando lo esté les aviso  ',
+  // problem: [
+  //   'Este proyecto surgió de mi experiencia personal al organizar eventos y salidas con amigos. Siempre había problemas para dividir los gastos de manera justa y evitar conflictos innecesarios.',
+  //   'Aun sabiendo de la existencia de aplicaciones que resolvian mi problema, no lograba encontrar con una que sea lo suficientemente simple y sencilla como para solucionarlo en un periodo corto de tiempo y sin necesidad de andar creando usuarios o buscando muy dentro de la aplicacion la funcionalidad.',
+  //   'Por eso puede pecar de simple y minimalista, porque lo es. Y asi lo quise hacer. Simple, rápida de usar y efectiva.',
+  // ],
+  // stack: [
+  //   'En una primera version era solo HTML, CSS y Javascript Vanilla lo que utilice para crear este proyecto. Con el tiempo y a modo de practica, lo cambie por Next.js (version 12) y Material UI para la UI.',
+  // ],
+  // features: [
+  //   'Proporciona el resultado indivial de cada participante',
+  //   'Muestra en verde a quien le deben y cuanto',
+  //   'Muestra en rojo quien debe',
+  // ],
+};

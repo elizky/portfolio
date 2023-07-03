@@ -27,11 +27,11 @@ export default async function HomePage() {
       {cta.map((t) => (
         <p className='my-5 max-w-[600px] '>{t}</p>
       ))}
-      <ul className='flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-accent/50'>
+      <ul className='flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-accent dark:text-accent/50'>
         {links.map((link) => (
           <li>
             <a
-              className='flex items-center hover:text-white transition-all gap-1'
+              className='flex items-center hover:text-black dark:hover:text-white transition-all gap-1'
               rel='noopener noreferrer'
               target='_blank'
               href={link.href}

@@ -86,8 +86,8 @@ const Navbar = () => {
                   <Link
                     key={path}
                     href={path}
-                    className={clsx('transition-all hover:text-white flex align-middle', {
-                      'text-white/50': !isActive,
+                    className={clsx('transition-all dark:hover:text-white hover:text-black flex align-middle', {
+                      'text-black/50 dark:text-white/50': !isActive,
                       'font-bold': isActive,
                     })}
                   >
