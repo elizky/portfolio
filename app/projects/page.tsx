@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { ArrowIcon } from 'components/icons';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { aboutProjects, projects, title } from 'info/projects';
 
 export const metadata: Metadata = {
@@ -19,7 +18,7 @@ const ProjectsPage = () => {
         ))}
         <div className='my-8 divide-y '>
           {projects.map((project) => (
-            <div className='flex flex-col items-start'>
+            <div className='flex flex-col items-start' key={project.title}>
               <Link
                 href={project.page}
                 className='flex items-baseline gap-4 text-accent underline-offset-8 transition-all hover:pl-4 hover:font-extrabold  hover:no-underline'
