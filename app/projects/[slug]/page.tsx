@@ -5,7 +5,7 @@ import { getProjects } from 'services/api';
 
 const BitacoraPage = async ({ params }: { params: { slug: string } }) => {
   const data = (await getProjects(params.slug)) as Project;
-
+  console.log('data', data);
   const { problemTitle, stackTitle, featuresTitle } = bitacoraEN;
 
   return (
@@ -14,7 +14,10 @@ const BitacoraPage = async ({ params }: { params: { slug: string } }) => {
 
       <div className='prose text-black dark:text-white  divide-y'>
         <div className='mt-5'>
-          <PortableText value={data.resumen} />
+          {data.resumen && <PortableText value={data.resumen} />}
+          <a href={data.link} target='_blank' className='text-primary font-bold text-xl '>
+            Go to the page
+          </a>
         </div>
 
         {data.origen && (

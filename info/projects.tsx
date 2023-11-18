@@ -9,14 +9,14 @@ export const projects = [
     page: '/projects/bitacora',
     title: 'Bitacora',
     description:
-      'This project is a secure and private digital journal. It was inspired by the need for a space where I can express myself authentically and safely store my personal thought and memories. Feel free to explore this project',
+      'This project is a secure and private digital journal. It was inspired by the need for a space where I can express myself authentically and safely store my personal thought and memories. Feel free to explore this project ',
     link: 'https://bitacorizky.vercel.app/',
   },
   {
     page: '/projects/calcula-tu-juntin',
     title: 'Calcula tu juntin ',
     description:
-      " Here, you'll find a tool to calculate and evenly split expenses for an event among friends. The idea came to me while organizing gatherings with my friends, wanting to avoid discussions about who paid for what. You can access this project",
+      " Here, you'll find a tool to calculate and evenly split expenses for an event among friends. The idea came to me while organizing gatherings with my friends, wanting to avoid discussions about who paid for what. You can access this project ",
     link: 'https://calculatujuntin.vercel.app/',
   },
   {

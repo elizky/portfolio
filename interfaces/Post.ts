@@ -1,5 +1,6 @@
 export interface Post {
   title: string;
+  subtitle?: string;
   _id: string;
   _createdAt: string;
   _rev: 'cW3GlIoU0H5gCHGLVMfiW8';

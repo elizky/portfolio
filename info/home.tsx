@@ -1,10 +1,10 @@
-import me from '../public/avatar-izky.png';
+import me from '../public/avatar.png';
 
-export const name = 'Nicolas Gonzalez';
+export const name = 'Izky';
 export const avatar = me;
 
 export const about = [
-  " Hey there, I'm Nico, but you can also call me Izky! I'm a passionate Front End developer who loves turning ideas into amazing web experiences.",
+  " Hey there, I'm Izky, but my mom calls me Nicolas when she gets angry. I'm a Front End developer since the pandemic, before that I was a musician.",
 ];
 
 export const bio = [

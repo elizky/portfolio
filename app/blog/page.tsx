@@ -10,10 +10,11 @@ export const metadata: Metadata = {
 
 export default async function BlogPage() {
   const data = (await getPosts()) as Post[];
+  console.log('data', data);
   return (
     <section>
       <h1 className='mb-5 projects'>Blog</h1>
-      <div className='prose text-black dark:text-white divide-y'>
+      <div className='prose text-black dark:text-white divide-y-4 divide-primary'>
         <div className='my-8 divide-y '>
           {data.length > 0 ? (
             data.map((post) => (
@@ -24,13 +25,16 @@ export default async function BlogPage() {
                 >
                   <h3 className='text-accent'>{post.title}</h3>
                 </Link>
-                <p className='mt-5 max-w-[600px]'>
-                  {new Date(post._createdAt).toISOString().split('T')[0]}
-                </p>
+                <div className='flex space-x-1 text-sm mt-2 max-w-[600px]'>
+                  {post.subtitle && <p className='font-mono'>{post.subtitle} - </p>}
+                  <p>
+                    {new Date(post._createdAt).toISOString().split('T')[0]}
+                  </p>
+                </div>
               </div>
             ))
           ) : (
-            <p>Under construction</p>
+            <p>No posts yet</p>
           )}
         </div>
       </div>

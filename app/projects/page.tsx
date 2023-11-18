@@ -24,7 +24,6 @@ const ProjectsPage = () => {
                 className='flex items-baseline gap-4 text-accent underline-offset-8 transition-all hover:pl-4 hover:font-extrabold  hover:no-underline'
               >
                 <h3 className='text-accent'>{project.title}</h3>
-                <ArrowIcon />
               </Link>
               <p className='mt-5 max-w-[600px]'>
                 {project.description}

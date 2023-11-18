@@ -4,6 +4,8 @@ import type { Metadata } from 'next';
 import { Lora, Noto_Sans } from 'next/font/google';
 import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
+import { Suspense } from 'react';
+import Loading from './projects/loading';
 
 const noto = Noto_Sans({
   weight: ['400', '700'],
@@ -20,20 +22,21 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Nicolas Gonzalez',
-    template: '%s | Nicolas Gonzalez',
+    default: 'Izky',
+    template: '%s | Izky',
   },
   description: 'Developer, producer, and creator.',
   openGraph: {
-    title: 'Nicolas Gonzalez',
+    title: 'Izky',
     description: 'Developer, producer, and creator.',
     url: 'https://izky.vercel.app',
-    siteName: 'Nicolas Gonzalez',
+    siteName: 'Izky',
     images: [
       {
-        url: 'https://izky.vercel.app/og.jpg',
-        width: 1920,
-        height: 1080,
+        url: 'https://izky.vercel.app/izky.png',
+        width: 800,
+        height: 600,
+        alt: 'Imagen de izky',
       },
     ],
     locale: 'en-US',
@@ -49,10 +52,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  twitter: {
-    title: 'Nicolas Gonzalez',
-    card: 'summary_large_image',
   },
   icons: {
     shortcut: '/favicon.ico',
@@ -71,10 +70,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className='antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto'>
         <Sidebar />
-        <main className='flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0'>
-          {children}
-          <Analytics />
-        </main>
+        <Suspense fallback={<Loading />}>
+          <main className='flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0'>
+            {children}
+            <Analytics />
+          </main>
+        </Suspense>
       </body>
     </html>
   );

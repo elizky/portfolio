@@ -6,7 +6,7 @@ import { Studio } from './Studio';
 const StudioPage = () => {
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const correctPassword = 'asdasd';
+  const correctPassword = 'Bulbasaur1#';
 
   const checkPassword = () => {
     password === correctPassword ? setIsAuthenticated(true) : setIsAuthenticated(false);
@@ -18,7 +18,7 @@ const StudioPage = () => {
 
   if (!isAuthenticated) {
     return (
-      <div className='flex flex-col gap-4  mt-5 max-w-[600px]'>
+      <div className='flex flex-col gap-4  mt-5 max-w-[600px] font-mono'>
         <p>Please enter the password to access the Studio page.</p>
         <input
           className='"shadow appearance-none border rounded w-1/3 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"'
