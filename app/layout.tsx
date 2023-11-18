@@ -21,11 +21,13 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.izky.dev/'),
   title: {
     default: 'Izky',
     template: '%s | Izky',
   },
   description: 'Developer, producer, and creator.',
+  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev'],
   openGraph: {
     title: 'Izky',
     description: 'Developer, producer, and creator.',
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Izky',
     images: [
       {
-        url: 'https://www.izky.dev/avatar.png',
+        url: 'public/avatar.png',
         width: 800,
         height: 600,
         alt: 'Imagen de izky',
@@ -45,6 +47,7 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: true,
     googleBot: {
       index: true,
       follow: true,
