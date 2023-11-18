@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 
 export default async function BlogPage() {
   const data = (await getPosts()) as Post[];
-  console.log('data', data);
   return (
     <section>
       <h1 className='mb-5 projects'>Blog</h1>

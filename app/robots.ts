@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://izky.vercel.app/sitemap.xml',
-    host: 'https://izky.vercel.app',
+    sitemap: 'https://www.izky.dev/sitemap.xml',
+    host: 'https://www.izky.dev',
   };
 }

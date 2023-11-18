@@ -6,7 +6,6 @@ import { getAuthor, getPost } from 'services/api';
 const BlogPage = async ({ params }: { params: { slug: string } }) => {
   const data = (await getPost(params.slug)) as Post;
   const author = await getAuthor(data.author._ref);
-  console.log('author', author);
 
   return (
     <section className='projects'>

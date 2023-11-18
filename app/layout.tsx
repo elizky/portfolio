@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Izky',
     description: 'Developer, producer, and creator.',
-    url: 'https://izky.vercel.app',
+    url: 'https://www.izky.dev/',
     siteName: 'Izky',
     images: [
       {
-        url: 'https://izky.vercel.app/izky.png',
+        url: 'https://www.izky.dev/avatar.png',
         width: 800,
         height: 600,
         alt: 'Imagen de izky',

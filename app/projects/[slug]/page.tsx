@@ -5,7 +5,6 @@ import { getProjects } from 'services/api';
 
 const BitacoraPage = async ({ params }: { params: { slug: string } }) => {
   const data = (await getProjects(params.slug)) as Project;
-  console.log('data', data);
   const { problemTitle, stackTitle, featuresTitle } = bitacoraEN;
 
   return (
