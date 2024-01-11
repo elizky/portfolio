@@ -6,18 +6,18 @@ export const aboutProjects = [
 
 export const projects = [
   {
-    page: '/projects/bitacora',
-    title: 'Bitacora',
+    page: '/projects/bitacorizky',
+    title: 'Bitacorizky',
     description:
       'This project is a secure and private digital journal. It was inspired by the need for a space where I can express myself authentically and safely store my personal thought and memories. Feel free to explore this project ',
-    link: 'https://bitacorizky.vercel.app/',
+    link: 'https://bitacorizky.com/',
   },
   {
     page: '/projects/calcula-tu-juntin',
-    title: 'Calcula tu juntin ',
+    title: 'Calculizky ',
     description:
       " Here, you'll find a tool to calculate and evenly split expenses for an event among friends. The idea came to me while organizing gatherings with my friends, wanting to avoid discussions about who paid for what. You can access this project ",
-    link: 'https://calculatujuntin.vercel.app/',
+    link: 'https://calculizky.com/',
   },
   {
     page: '/projects/librerizky',
@@ -29,16 +29,16 @@ export const projects = [
 ];
 
 export const bitacoraES = {
-  title: 'Bitacora',
+  title: 'Bitacorizky',
   description:
-    '¡Bienvenido a Bitácora! Decidí crear esta aplicación que combina la autenticidad de un diario tradicional con la comodidad de la tecnología digital.  ',
+    '¡Bienvenido a Bitacorizky! Decidí crear esta aplicación que combina la autenticidad de un diario tradicional con la comodidad de la tecnología digital.  ',
   problemTitle: 'Origin of the problem',
   problemContent: [
     'Este proyecto nació de mi necesidad de tener un espacio seguro y privado donde pudiera expresarme libremente y mantener protegidos mis pensamientos y recuerdos personales. Si bien siempre lo pensé como una aplicacion mobil, decidí primero implementar mis conocimientos en desarrollo web para crearlo, darle una identidad y luego implementar la version mobile.',
   ],
   stackTitle: 'Stack Tecnologico',
   stackContent: [
-    'Utilice las herramientas y tecnologias mas actualizadas para hacer realidad Bitacora. El frontend esta desarrollado con Next.js 13, aprovechando el poder del server side rendering para optimizar la carga y poder implementar lógica del lado del servidar. El estilado esta hecho con tailwind tratando de seguir una impronta elegante y minimalista.',
+    'Utilice las herramientas y tecnologias mas actualizadas para hacer realidad Bitacorizky. El frontend esta desarrollado con Next.js 13, aprovechando el poder del server side rendering para optimizar la carga y poder implementar lógica del lado del servidar. El estilado esta hecho con tailwind tratando de seguir una impronta elegante y minimalista.',
     'Para la parte del backend utilize Firebase y todas las herramientas que proporciona: el manejo de logueo con un usuario propio o utilizando el provider de Google, la base de datos donde se alojan los posteos que se van haciendo y el cloud storage donde se almacenan las fotos que podes ir cargando. Todo esto enmantelado en estrictas reglas de uso para aumentar la privacidad.',
   ],
   featuresTitle: 'Features',
@@ -51,16 +51,16 @@ export const bitacoraES = {
 };
 
 export const bitacoraEN = {
-  title: 'Bitacora',
+  title: 'Bitacorizky',
   description:
-    'Welcome to Bitacora! I decided to create this application that combines the authenticity of a traditional journal with the convenience of digital technology.',
+    'Welcome to Bitacorizky! I decided to create this application that combines the authenticity of a traditional journal with the convenience of digital technology.',
   problemTitle: 'Origin of the problem',
   problemContent: [
     'This project was born out of my need to have a safe and private space where I could express myself freely and keep my personal thoughts and memories protected. Although I always thought of it as a mobile application, I decided to first implement my knowledge in web development to create it, give it an identity and then implement the mobile version.    ',
   ],
   stackTitle: 'Technological Stack',
   stackContent: [
-    'I used the most updated tools and technologies to make Bitacora a reality. The frontend is developed with Next.js 13, taking advantage of the power of server side rendering to optimize the load and to implement server side logic. The styling is made with tailwind trying to follow an elegant and minimalist look.',
+    'I used the most updated tools and technologies to make Bitacorizky a reality. The frontend is developed with Next.js 13, taking advantage of the power of server side rendering to optimize the load and to implement server side logic. The styling is made with tailwind trying to follow an elegant and minimalist look.',
     'For the backend I used Firebase and all the tools it provides: the login management with your own user or using the Google provider, the database where the posts are hosted and the cloud storage where the photos you can upload are stored. All this is wrapped in strict rules of use to increase privacy.',
   ],
   featuresTitle: 'Features',
@@ -73,9 +73,9 @@ export const bitacoraEN = {
 };
 
 export const ctjES = {
-  title: 'Calcula tu Juntin',
+  title: 'Calculizky',
   description:
-    '¡Bienvenido a Calcula tu Juntin! decidí crear una herramienta que simplificara el proceso de cálculo y dividiera equitativamente los gastos entre todos los participantes.  ',
+    '¡Bienvenido a Calculizky! decidí crear una herramienta que simplificara el proceso de cálculo y dividiera equitativamente los gastos entre todos los participantes.  ',
   problemTitle: 'Origen del problema',
   problemContent: [
     'Este proyecto surgió de mi experiencia personal al organizar eventos y salidas con amigos. Siempre había problemas para dividir los gastos de manera justa y evitar conflictos innecesarios.',
@@ -95,9 +95,9 @@ export const ctjES = {
   ],
 };
 export const ctjEN = {
-  title: 'Calcula tu Juntin',
+  title: 'Calculizky',
   description:
-    'Welcome to Calcula tu Juntin! I decided to create a tool that would simplify the calculation process and divide the costs equally among all participants.',
+    'Welcome to Calculizky! I decided to create a tool that would simplify the calculation process and divide the costs equally among all participants.',
   problemTitle: 'Origin of the problem',
   problemContent: [
     'This project came from my personal experience in organizing events and outings with friends. There were always problems in dividing expenses fairly and avoiding unnecessary conflicts.',

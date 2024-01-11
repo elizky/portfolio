@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { ArrowIcon } from 'components/icons';
 import Link from 'next/link';
 import { aboutProjects, projects, title } from 'info/projects';
 
