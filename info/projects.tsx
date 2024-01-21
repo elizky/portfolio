@@ -13,10 +13,10 @@ export const projects = [
     link: 'https://bitacorizky.com/',
   },
   {
-    page: '/projects/calcula-tu-juntin',
+    page: '/projects/calculizky',
     title: 'Calculizky ',
     description:
-      " Here, you'll find a tool to calculate and evenly split expenses for an event among friends. The idea came to me while organizing gatherings with my friends, wanting to avoid discussions about who paid for what. You can access this project ",
+      'A financial management application designed to provide insightful tools that help you better understand and manage your personal finances. You can access this project ',
     link: 'https://calculizky.com/',
   },
   {
@@ -38,7 +38,7 @@ export const bitacoraES = {
   ],
   stackTitle: 'Stack Tecnologico',
   stackContent: [
-    'Utilice las herramientas y tecnologias mas actualizadas para hacer realidad Bitacorizky. El frontend esta desarrollado con Next.js 13, aprovechando el poder del server side rendering para optimizar la carga y poder implementar lógica del lado del servidar. El estilado esta hecho con tailwind tratando de seguir una impronta elegante y minimalista.',
+    'Utilice las herramientas y tecnologias mas actualizadas para hacer realidad Bitacorizky. El frontend esta desarrollado con Next.js 14, aprovechando el poder del server side rendering para optimizar la carga y poder implementar lógica del lado del servidar. El estilado esta hecho con tailwind tratando de seguir una impronta elegante y minimalista.',
     'Para la parte del backend utilize Firebase y todas las herramientas que proporciona: el manejo de logueo con un usuario propio o utilizando el provider de Google, la base de datos donde se alojan los posteos que se van haciendo y el cloud storage donde se almacenan las fotos que podes ir cargando. Todo esto enmantelado en estrictas reglas de uso para aumentar la privacidad.',
   ],
   featuresTitle: 'Features',
@@ -60,7 +60,7 @@ export const bitacoraEN = {
   ],
   stackTitle: 'Technological Stack',
   stackContent: [
-    'I used the most updated tools and technologies to make Bitacorizky a reality. The frontend is developed with Next.js 13, taking advantage of the power of server side rendering to optimize the load and to implement server side logic. The styling is made with tailwind trying to follow an elegant and minimalist look.',
+    'I used the most updated tools and technologies to make Bitacorizky a reality. The frontend is developed with Next.js 14, taking advantage of the power of server side rendering to optimize the load and to implement server side logic. The styling is made with tailwind trying to follow an elegant and minimalist look.',
     'For the backend I used Firebase and all the tools it provides: the login management with your own user or using the Google provider, the database where the posts are hosted and the cloud storage where the photos you can upload are stored. All this is wrapped in strict rules of use to increase privacy.',
   ],
   featuresTitle: 'Features',
@@ -116,6 +116,50 @@ export const ctjEN = {
     'Shows in red who is owed',
   ],
 };
+export const calculizkyES = {
+  title: 'Calculizky',
+  description:
+    '¡Bienvenido a Calculizky! Calculizky es una aplicación de gestión financiera diseñada para proporcionarte herramientas perspicaces que te ayudarán a entender y administrar mejor tus finanzas personales. Con la combinación perfecta de simplicidad y funciones avanzadas, es tu solución integral para el bienestar financiero.',
+  problemTitle: 'El Desafío',
+  problemContent: [
+    'La idea detrás de Calculizky surge de los desafíos que enfrentan muchas personas al realizar un seguimiento de sus actividades financieras. Con diversas fuentes de ingresos, gastos variados y metas financieras complejas, se necesitaba una plataforma unificada que proporcionara información clara y facilitara la toma de decisiones informadas.',
+  ],
+  stackTitle: 'Tecnologías Utilizadas',
+  stackContent: [
+    'Calculizky aprovecha tecnologías de vanguardia para ofrecer una experiencia de usuario fluida. El frontend se desarrolla con React por su flexibilidad y eficiencia, y Recharts se utiliza para visualizar datos financieros de manera intuitiva.',
+    'En el backend, Node.js con Express alimenta el servidor, y Prisma se utiliza como el conjunto de herramientas de base de datos para una gestión eficiente de datos. La autenticación se maneja de manera segura con NextAuth.js para garantizar la privacidad del usuario y la protección de datos.',
+  ],
+  featuresTitle: 'Características Clave',
+  featuresSubtitle: 'Explora las potentes características que Calculizky pone a tu alcance:',
+  featuresContent: [
+    'Registra y categoriza tus gastos e ingresos sin esfuerzo, proporcionando una visión completa de tus transacciones financieras.',
+    'Gráficos y tablas dinámicas ofrecen visualizaciones de tus patrones de gasto, ayudándote a identificar tendencias y tomar decisiones financieras informadas.',
+    'Autenticación segura y cifrado de datos para garantizar la confidencialidad y privacidad de tu información financiera.',
+  ],
+};
+
+export const calculizkyEN = {
+  title: 'Calculizky',
+  description:
+    "Welcome to Calculizky! Calculizky is a financial management application designed to provide insightful tools that help you better understand and manage your personal finances. With the perfect blend of simplicity and advanced features, it's your comprehensive solution for financial well-being.",
+  problemTitle: 'The Challenge',
+  problemContent: [
+    'The idea behind Calculizky stems from the challenges many individuals face when tracking their financial activities. With diverse income sources, varied expenses, and complex financial goals, a unified platform was needed that would provide clear insights and facilitate informed decision-making.',
+  ],
+  stackTitle: 'Technologies Used',
+  stackContent: [
+    'Calculizky leverages cutting-edge technologies to deliver a seamless user experience. The frontend is developed using React for its flexibility and efficiency, and Recharts is employed to visualize financial data intuitively.',
+    'On the backend, Node.js with Express powers the server, and Prisma is used as the database toolkit for efficient data management. Authentication is securely handled with NextAuth.js to ensure user privacy and data protection.',
+  ],
+  featuresTitle: 'Key Features',
+  featuresSubtitle: 'Explore the powerful features Calculizky puts at your fingertips:',
+  featuresContent: [
+    'Effortlessly record and categorize your expenses and income, providing a comprehensive view of your financial transactions.',
+    'Dynamic charts and tables offer visualizations of your spending patterns, helping you identify trends and make informed financial decisions.',
+    'Customizable budgeting tools allow you to set financial goals and track your progress over time.',
+    'Secure authentication and data encryption to ensure the confidentiality and privacy of your financial information.',
+  ],
+};
 
 export const librerizkyES = {
   title: 'Librerizky',
@@ -138,17 +182,4 @@ export const librerizkyES = {
 export const librerizkyEN = {
   title: 'Librerizky',
   description: "This is my own library! But it's not ready yet. When it is, I'll let you know",
-  // problem: [
-  //   'Este proyecto surgió de mi experiencia personal al organizar eventos y salidas con amigos. Siempre había problemas para dividir los gastos de manera justa y evitar conflictos innecesarios.',
-  //   'Aun sabiendo de la existencia de aplicaciones que resolvian mi problema, no lograba encontrar con una que sea lo suficientemente simple y sencilla como para solucionarlo en un periodo corto de tiempo y sin necesidad de andar creando usuarios o buscando muy dentro de la aplicacion la funcionalidad.',
-  //   'Por eso puede pecar de simple y minimalista, porque lo es. Y asi lo quise hacer. Simple, rápida de usar y efectiva.',
-  // ],
-  // stack: [
-  //   'En una primera version era solo HTML, CSS y Javascript Vanilla lo que utilice para crear este proyecto. Con el tiempo y a modo de practica, lo cambie por Next.js (version 12) y Material UI para la UI.',
-  // ],
-  // features: [
-  //   'Proporciona el resultado indivial de cada participante',
-  //   'Muestra en verde a quien le deben y cuanto',
-  //   'Muestra en rojo quien debe',
-  // ],
 };
