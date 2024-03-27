@@ -9,6 +9,7 @@
     "@portabletext/react": "^3.0.4",
     "@sanity/client": "^6.1.7",
     "@sanity/image-url": "^1.0.2",
+    "@sanity/react-loader": "^1.9.5",
     "@sanity/vision": "^3.14.2",
     "@vercel/analytics": "^0.1.11",
     "@vercel/edge-config": "^0.1.1",
