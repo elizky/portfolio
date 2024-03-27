@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { Lora, Noto_Sans } from 'next/font/google';
 import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Suspense } from 'react';
 import Loading from './projects/loading';
 
@@ -77,6 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className='flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0'>
             {children}
             <Analytics />
+            <SpeedInsights />
           </main>
         </Suspense>
       </body>
