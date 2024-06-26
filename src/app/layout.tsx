@@ -3,6 +3,8 @@ import { Lora, Noto_Sans } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/lib/theme-provider';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const noto = Noto_Sans({
   weight: ['400', '700'],
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | Izky',
   },
   description: 'Developer, producer, and creator.',
-  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev'],
+  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev', 'calculizky', 'bitacorizky'],
   openGraph: {
     title: 'Izky',
     description: 'Developer, producer, and creator.',
@@ -77,7 +79,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
