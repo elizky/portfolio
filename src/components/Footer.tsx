@@ -1,16 +1,15 @@
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
-const footer = {
-  createdBy: 'Created by ',
-  name: 'Izky',
-};
 const Footer = () => {
+  const t = useTranslations('footer');
+
   return (
-    <footer className='py-6 flex items-center justify-center'>
+    <footer className='bg-gradient-to-t from-primary-foreground dark:from-secondary to-transparent py-6 flex items-center justify-center'>
       <p className='font-mono text-xs'>
-        {footer.createdBy}
+        {t('createdBy')}
         <Link href='https://www.izky.dev/' target='_blank' className='hover:underline'>
-          {footer.name}
+          {t('name')}
         </Link>
       </p>
     </footer>

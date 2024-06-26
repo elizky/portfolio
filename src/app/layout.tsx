@@ -1,5 +1,9 @@
 import type { Metadata } from 'next';
 import { Lora, Noto_Sans } from 'next/font/google';
+
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
+
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/lib/theme-provider';
@@ -34,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Izky',
     images: [
       {
-        url: 'public/avatar.png',
+        url: '/avatar.png',
         width: 800,
         height: 600,
         alt: 'Imagen de izky',
@@ -59,13 +63,19 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
   },
 };
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
+  const messages = await getMessages();
+
+  console.log('locale', locale);
+
   return (
-    <html lang='en'>
+    <html lang={locale}>
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
@@ -79,9 +89,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
-          {children}
-          <Footer />
+          <NextIntlClientProvider messages={messages}>
+            <Header />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

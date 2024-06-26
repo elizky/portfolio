@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { ModeToggle } from './ModeToggle';
+
 import Logo from './Logo';
+import { Sets } from './Settings';
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
           <Logo />
         </div>
         <div className='col-start-3 justify-self-end'>
-          <ModeToggle />
+          <Sets />
         </div>
       </div>
     </header>

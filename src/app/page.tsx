@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import calculizkyImage from '../../public/calculizky.png';
 import bitacorizkyImage from '../../public/bitacorizky.png';
 

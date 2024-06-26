@@ -1,0 +1,71 @@
+{
+  "theme": {
+    "light": "light",
+    "dark": "dark",
+    "system": "system"
+  },
+  "hero": {
+    "title": "¿Quién diablos es Izky? Descúbrelo Aquí",
+    "createdBy": "Nicolas Gonzalez",
+    "date": "Publicado el"
+  },
+  "article": {
+    "1": {
+      "text": "En el vasto y a veces confuso mundo de la tecnología, aparece un personaje intrigante conocido como Izky. Pero, ¿quién diablos es Izky? Detrás de este nombre se encuentra Nicolás González, un desarrollador front-end con un talento y una pasión que no pasan desapercibidos. Vamos a desentrañar la vida y los logros de este individuo excepcional."
+    },
+    "2": {
+      "title": "El Desarrollo de un Desarrollador",
+      "text": "Izky ha estado creando magia en el mundo del desarrollo desde su primer trabajo en MobyDigital, donde perfeccionó el arte de hacer aplicaciones web con Angular. Su breve pero intenso paso por Flexxus como desarrollador full-stack le permitió dominar las API REST con Node.js y mantener aplicaciones web sin perder la cabeza. Desde enero de 2021, Izky es una estrella en Globant. Aquí, su dominio de tecnologías como Angular, React y Next.js lo ha convertido en una pieza clave del equipo. ¿Storybook? Lo ha hecho. ¿Micro frontends? También. Además, ha liderado equipos, probando que no solo sabe escribir código, sino también guiar a otros en la jungla tecnológica."
+    },
+    "3": {
+      "title": "Los Proyectos Personales: Un Vistazo a la Innovación",
+      "text": "La creatividad de Izky no tiene límites, y eso se refleja en sus proyectos personales. Entre sus joyas se encuentran Bitacorizky y Calculizky, dos aplicaciones que no solo solucionan problemas cotidianos, sino que también aportan un toque de innovación. Bitacorizky es un diario digital seguro y privado, ideal para aquellos que quieren expresar sus pensamientos sin temor a ser descubiertos. Este proyecto nació de la necesidad de Izky de tener un lugar seguro para sus reflexiones más íntimas. Calculizky, por otro lado, es una aplicación de gestión financiera diseñada para que hasta el más despistado pueda entender y manejar sus finanzas personales. Esta herramienta es esencial para quienes buscan un poco de luz en el oscuro mundo de las finanzas."
+    },
+    "4": {
+      "title": "Más Allá del Código",
+      "text": "Cuando no está creando la próxima gran cosa en tecnología, Izky se relaja jugando fútbol y tenis, deportes que practica con la misma pasión que pone en sus proyectos. Su vida es un testimonio de que la creatividad y la técnica pueden coexistir de manera armoniosa, creando a una persona verdaderamente multifacética. Izky es un ejemplo viviente de que las mejores ideas surgen de necesidades personales. Su enfoque innovador y su capacidad para fusionar sus pasiones tecnológicas lo convierten en un espécimen único, digno de estudio y admiración."
+    },
+    "5": {
+      "title": "Contacto",
+      "text": "Si te has quedado con ganas de saber más sobre Izky, ya sea en el mundo del desarrollo o en sus exploraciones tecnológicas, no dudes en ponerte en contacto. Este talentoso desarrollador siempre está abierto a nuevas oportunidades y colaboraciones, continuando su viaje de innovación y creatividad sin fin."
+    }
+  },
+  "relatedPost": {
+    "1": {
+      "title": "Bitacorizky: Un Proyecto Personal",
+      "image": "/bitacorizky.png",
+      "date": "15 de enero de 2024",
+      "link": "https://medium.com/@nigd22/bitacorizky-a-personal-touch-side-project-df34db7468b8"
+    },
+    "2": {
+      "title": "De la Idea al Despliegue en un Fin de Semana: Cómo Creé Calculizky, una Aplicación Web para la Gestión de Gastos",
+      "image": "/calculizky.png",
+      "date": "8 de febrero de 2024",
+      "link": "https://medium.com/@nigd22/from-idea-to-deployment-in-a-weekend-how-i-created-calculizky-a-web-app-for-expense-management-5c5a9fd06237"
+    },
+    "3": {
+      "title": "¡Descubre las Nuevas Funciones en Calculizky!",
+      "image": "/an-old-calulator.jpg",
+      "date": "13 de junio de 2024",
+      "link": "https://medium.com/@nigd22/discover-the-new-features-in-calculizky-2b4378d0a7f6"
+    }
+  },
+  "links": {
+    "resume": {
+      "href": "/NicolasGonzalez-en.pdf",
+      "text": "Obtener el CV de Izky"
+    },
+    "linkedin": {
+      "href": "https://www.linkedin.com/in/nicogonzalez22/",
+      "text": "Escribe a Izky en Linkedin"
+    },
+    "mail": {
+      "href": "mailto:nigd22@google.com",
+      "text": "Envíame un correo"
+    }
+  },
+  "footer": {
+    "createdBy": "Creado por ",
+    "name": "Izky"
+  }
+}
