@@ -1,0 +1,71 @@
+{
+  "theme": {
+    "light": "light",
+    "dark": "dark",
+    "system": "system"
+  },
+  "hero": {
+    "title": "Who the Hell is Izky? Find Out Here",
+    "createdBy": "Nicolas Gonzalez",
+    "date": "Published on"
+  },
+  "article": {
+    "1": {
+      "text": "In the vast and sometimes confusing world of technology, an intriguing character known as Izky emerges. But who the hell is Izky? Behind this name is Nicolás González, a front-end developer with talent and passion that do not go unnoticed. Let's uncover the life and achievements of this exceptional individual."
+    },
+    "2": {
+      "title": "The Development of a Developer",
+      "text": "Izky has been creating magic in the development world since his first job at MobyDigital, where he perfected the art of making web applications with Angular. His brief but intense stint at Flexxus as a full-stack developer allowed him to master REST APIs with Node.js and maintain web applications without losing his mind. Since January 2021, Izky has been a star at Globant. Here, his mastery of technologies like Angular, React, and Next.js has made him a key member of the team. Storybook? Done it. Micro frontends? That too. He has also led teams, proving that he not only knows how to write code but also how to guide others through the technological jungle."
+    },
+    "3": {
+      "title": "Personal Projects: A Glimpse of Innovation",
+      "text": "Izky's creativity knows no bounds, and this is reflected in his personal projects. Among his gems are Bitacorizky and Calculizky, two applications that not only solve everyday problems but also add a touch of innovation. Bitacorizky is a secure and private digital journal, ideal for those who want to express their thoughts without fear of being discovered. This project was born from Izky's need to have a safe place for his most intimate reflections. Calculizky, on the other hand, is a financial management application designed so that even the most absent-minded can understand and manage their personal finances. This tool is essential for those seeking some light in the dark world of finance."
+    },
+    "4": {
+      "title": "Beyond Code",
+      "text": "When he's not creating the next big thing in technology, Izky relaxes by playing soccer and tennis, sports he practices with the same passion he puts into his projects. His life is a testament to how creativity and technique can coexist harmoniously, creating a truly multifaceted person. Izky is a living example that the best ideas arise from personal needs. His innovative approach and ability to merge his technological passions make him a unique specimen, worthy of study and admiration."
+    },
+    "5": {
+      "title": "Contact",
+      "text": "If you are eager to know more about Izky, whether in the development world or in his technological explorations, don't hesitate to get in touch. This talented developer is always open to new opportunities and collaborations, continuing his journey of endless innovation and creativity."
+    }
+  },
+  "relatedPost": {
+    "1": {
+      "title": "Bitacorizky: A Personal Touch Side Project",
+      "image": "/bitacorizky.png",
+      "date": "Jan 15, 2024",
+      "link": "https://medium.com/@nigd22/bitacorizky-a-personal-touch-side-project-df34db7468b8"
+    },
+    "2": {
+      "title": "From Idea to Deployment in a Weekend: How I Created Calculizky, a Web App for Expense Management",
+      "image": "/calculizky.png",
+      "date": "Feb 8, 2024",
+      "link": "https://medium.com/@nigd22/from-idea-to-deployment-in-a-weekend-how-i-created-calculizky-a-web-app-for-expense-management-5c5a9fd06237"
+    },
+    "3": {
+      "title": "Discover the New Features in Calculizky!",
+      "image": "/an-old-calulator.jpg",
+      "date": "Jun 13, 2024",
+      "link": "https://medium.com/@nigd22/discover-the-new-features-in-calculizky-2b4378d0a7f6"
+    }
+  },
+  "links": {
+    "resume": {
+      "href": "/NicolasGonzalez-en.pdf",
+      "text": "Get Izky's Resume"
+    },
+    "linkedin": {
+      "href": "https://www.linkedin.com/in/nicogonzalez22/",
+      "text": "Write to Izky on Linkedin"
+    },
+    "mail": {
+      "href": "mailto:nigd22@google.com",
+      "text": "Email me"
+    }
+  },
+  "footer": {
+    "createdBy": "Created by ",
+    "name": "Izky"
+  }
+}
