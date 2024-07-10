@@ -13,12 +13,12 @@ export default function Component() {
     <main className='flex flex-col'>
       <Title />
 
-      <div className='container grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-8 py-12 md:py-20'>
+      <div className='container grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-8 py-12 md:py-20 md:px-36 lg:px-56 '>
         <div className='lg:hidden'>
           <Ads src={calculizkyImage} alt='Calculizky image' link='https://www.calculizky.com/' />
         </div>
         <Article />
-        <div className='space-y-12'>
+        <div className='space-y-12 lg:max-w-64'>
           <RelatedPost />
           <div className='hidden lg:flex'>
             <Ads src={calculizkyImage} alt='Calculizky image' link='https://www.calculizky.com/' />
