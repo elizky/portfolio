@@ -5,29 +5,42 @@
     "system": "system"
   },
   "hero": {
-    "title": "Who the Hell is Izky? Find Out Here",
-    "createdBy": "Nicolas Gonzalez",
+    "title": "Who the heck is Izky? Find Out Here",
+    "createdBy": "Someone",
     "date": "Published on"
   },
   "article": {
     "1": {
-      "text": "In the vast and sometimes confusing world of technology, an intriguing character known as Izky emerges. But who the hell is Izky? Behind this name is Nicolás González, a front-end developer with talent and passion that do not go unnoticed. Let's uncover the life and achievements of this exceptional individual."
+      "text": "There are no limits to the possibilities on the internet, right? That’s what a young programming student with a hidden talent for coding once thought when he started creating his first web projects. Today, he is a senior developer who stands out for his unique creativity and lateral thinking.",
+      "subtitle": "We're talking about Izky. Well, maybe you don't know him. Let me tell you who the heck this guy is and how he got to be who he is today."
     },
     "2": {
-      "title": "The Development of a Developer",
-      "text": "Izky has been creating magic in the development world since his first job at MobyDigital, where he perfected the art of making web applications with Angular. His brief but intense stint at Flexxus as a full-stack developer allowed him to master REST APIs with Node.js and maintain web applications without losing his mind. Since January 2021, Izky has been a star at Globant. Here, his mastery of technologies like Angular, React, and Next.js has made him a key member of the team. Storybook? Done it. Micro frontends? That too. He has also led teams, proving that he not only knows how to write code but also how to guide others through the technological jungle."
+      "title": "Baby dev steps",
+      "text1": "Let's start with a brief story of how Izky began his journey into the world of development. His first job was at MobyDigital, an Argentine company where he perfected the art of making web applications with Angular.",
+      "text2": "Then, his brief but intense stint at Flexxus as a full-stack developer allowed him to master REST APIs with Node.js and maintain web applications without losing his mind.",
+      "text3": "After some time and a lot of practice in development, in January 2021, he managed to consolidate his programming skills by landing a job at Globant as a Web UI. Playing in the big leagues, Izky was able to put his mastery of technologies like Angular, React, and Next.js into practice, becoming a key member of the agile team.",
+      "text4": "He has created libraries in Storybook, developed micro frontends… Our friend has proven himself in numerous technologies and tools. In addition, he has led teams, proving that he not only knows how to write code but also how to guide others through the technological jungle."
     },
     "3": {
-      "title": "Personal Projects: A Glimpse of Innovation",
-      "text": "Izky's creativity knows no bounds, and this is reflected in his personal projects. Among his gems are Bitacorizky and Calculizky, two applications that not only solve everyday problems but also add a touch of innovation. Bitacorizky is a secure and private digital journal, ideal for those who want to express their thoughts without fear of being discovered. This project was born from Izky's need to have a safe place for his most intimate reflections. Calculizky, on the other hand, is a financial management application designed so that even the most absent-minded can understand and manage their personal finances. This tool is essential for those seeking some light in the dark world of finance."
+      "title": "How to train your developer",
+      "text1": "Every cinematic character must face a rigorous training phase to consolidate their skills in their field. For our character, this was crucial. That’s why he leveraged his creative mind and began looking for real problems to solve with a web solution.",
+      "text2": "This is how Bitacorizky and Calculizky were born, two applications that not only solve everyday needs but also add a touch of innovation.",
+      "text3": "Bitacorizky is a secure and private digital diary, ideal for those who want to express their thoughts without fear of being discovered. This project was born from our developer's need to have a safe and fast place to write his most fleeting thoughts and deepest reflections.",
+      "text4": "Calculizky, on the other hand, is a financial management application designed so that even the most absent-minded can understand and manage their personal finances. This tool is essential for those seeking a bit of light in the dark world of finances."
     },
     "4": {
       "title": "Beyond Code",
-      "text": "When he's not creating the next big thing in technology, Izky relaxes by playing soccer and tennis, sports he practices with the same passion he puts into his projects. His life is a testament to how creativity and technique can coexist harmoniously, creating a truly multifaceted person. Izky is a living example that the best ideas arise from personal needs. His innovative approach and ability to merge his technological passions make him a unique specimen, worthy of study and admiration."
+      "text1": "When he’s not creating his next big tech project, Izky enjoys playing soccer and tennis, sports he practices with the same passion he puts into his projects. Additionally, he composes music and plays various instruments, as part of his former profession as a Music Producer. His life goal is to demonstrate that creativity and technique can coexist harmoniously, truly being multifaceted.",
+      "text2": " ",
+      "text3": " ",
+      "text4": " "
     },
     "5": {
       "title": "Contact",
-      "text": "If you are eager to know more about Izky, whether in the development world or in his technological explorations, don't hesitate to get in touch. This talented developer is always open to new opportunities and collaborations, continuing his journey of endless innovation and creativity."
+      "text1": "If you are eager to learn more about Izky, whether in the world of development or his technological explorations, do not hesitate to get in touch. A great developer is always open to new opportunities and collaborations, and our protagonist is no exception.",
+      "text2": " ",
+      "text3": " ",
+      "text4": " "
     }
   },
   "relatedPost": {
@@ -57,11 +70,11 @@
     },
     "linkedin": {
       "href": "https://www.linkedin.com/in/nicogonzalez22/",
-      "text": "Write to Izky on Linkedin"
+      "text": "Message Izky on LinkedIn"
     },
     "mail": {
       "href": "mailto:nigd22@google.com",
-      "text": "Email me"
+      "text": "Send an email"
     }
   },
   "footer": {
