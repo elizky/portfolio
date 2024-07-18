@@ -1,0 +1,84 @@
+{
+  "theme": {
+    "light": "light",
+    "dark": "dark",
+    "system": "system"
+  },
+  "hero": {
+    "title": "¿Quién diablos es Izky? Descúbrelo Aquí",
+    "createdBy": "Alguien",
+    "date": "Publicado el"
+  },
+  "article": {
+    "1": {
+      "text": "No hay límites para las posibilidades en internet, ¿verdad? Eso se planteó alguna vez un joven estudiante de programación con un talento oculto para el código cuando comenzó a crear sus primeros proyectos web. Hoy, es un desarrollador senior que destaca por su creatividad diferencial y pensamiento lateral",
+      "subtitle": "Estamos hablando de Izky. Bueno, tal vez no lo conozcas. Déjame contarte quién diablos es este muchacho y cómo llegó a convertirse en ello."
+    },
+    "2": {
+      "title": "Baby dev steps",
+      "text1": "Primero comencemos con una breve historia de cómo Izky ha comenzado en el mundo del desarrollo. Su primer trabajo fue en MobyDigital, empresa argentina donde perfeccionó el arte de hacer aplicaciones web con Angular.",
+      "text2": "Luego, su breve pero intenso paso por Flexxus como desarrollador full-stack le permitió dominar las API REST con Node.js y mantener aplicaciones web sin perder la cabeza.",
+      "text3": "Luego de un tiempo y mucha práctica en desarrollo, en enero de 2021 logra consolidar sus skills programadoras obteniendo su trabajo en Globant como Web UI. Jugando en las grandes ligas, Izky pudo poner en práctica su dominio de tecnologías como Angular, React y Next.js, convirtiéndose en una pieza clave del equipo agile.",
+      "text4": "Ha creado librerías en Storybook, ha desarrollado micro frontends… Nuestro amigo se ha probado a sí mismo en numerosas tecnologías y herramientas. Además, ha liderado equipos, probando que no solo sabe escribir código, sino también guiar a otros en la jungla tecnológica."
+    },
+    "3": {
+      "title": "Cómo entrenar a tu desarrollador",
+      "text1": "Todo personaje cinematográfico debe enfrentar una exigente etapa de entrenamiento para poder consolidarse en su campo de juego. Para nuestro personaje, esto fue clave. Por eso, se aprovechó de su mente creativa y comenzó a buscar problemas reales a los que generarle una solución web.",
+      "text2": "Así nacieron Bitacorizky y Calculizky, dos aplicaciones que no solo resuelven necesidades cotidianas, sino que también aportan un toque de innovación.",
+      "text3": "Bitacorizky es un diario digital seguro y privado, ideal para aquellos que quieren expresar sus pensamientos sin temor a ser descubiertos. Este proyecto nació de la necesidad de nuestro desarrollador de tener un lugar seguro y rápido para escribir sus pensamientos más fugaces y sus reflexiones más profundas.",
+      "text4": "Calculizky, por otro lado, es una aplicación de gestión financiera diseñada para que hasta el más despistado pueda entender y manejar sus finanzas personales. Esta herramienta es esencial para quienes buscan un poco de luz en el oscuro mundo de las finanzas."
+    },
+    "4": {
+      "title": "Más Allá del Código",
+      "text1": "Cuando no está creando su próximo gran proyecto tecnológico, Izky disfruta de jugar al fútbol y tenis, deportes que practica con la misma pasión que pone en sus proyectos. Además, compone música y toca diversos instrumentos, como parte de su antigua profesión como Productor Musical. Su objetivo de vida es demostrar que la creatividad y la técnica pueden coexistir de manera armoniosa, siendo verdaderamente multifacético.",
+      "text2": " ",
+      "text3": " ",
+      "text4": " "
+    },
+    "5": {
+      "title": "Contacto",
+      "text1": "Si te has quedado con ganas de saber más sobre Izky, ya sea en el mundo del desarrollo o en sus exploraciones tecnológicas, no dudes en ponerte en contacto. Un gran desarrollador siempre está abierto a nuevas oportunidades y colaboraciones, y nuestro protagonista no es la excepción.",
+      "text2": " ",
+      "text3": " ",
+      "text4": " "
+    }
+  },
+  "relatedPost": {
+    "1": {
+      "title": "Bitacorizky: Un Proyecto Personal",
+      "image": "/bitacorizky.png",
+      "date": "15 de enero de 2024",
+      "link": "https://medium.com/@nigd22/bitacorizky-a-personal-touch-side-project-df34db7468b8"
+    },
+    "2": {
+      "title": "De la Idea al Despliegue en un Fin de Semana: Cómo Creé Calculizky, una Aplicación Web para la Gestión de Gastos",
+      "image": "/calculizky.png",
+      "date": "8 de febrero de 2024",
+      "link": "https://medium.com/@nigd22/from-idea-to-deployment-in-a-weekend-how-i-created-calculizky-a-web-app-for-expense-management-5c5a9fd06237"
+    },
+    "3": {
+      "title": "¡Descubre las Nuevas Funciones en Calculizky!",
+      "image": "/an-old-calulator.jpg",
+      "date": "13 de junio de 2024",
+      "link": "https://medium.com/@nigd22/discover-the-new-features-in-calculizky-2b4378d0a7f6"
+    }
+  },
+  "links": {
+    "resume": {
+      "href": "/NicolasGonzalez-en.pdf",
+      "text": "Obtener el CV de Izky"
+    },
+    "linkedin": {
+      "href": "https://www.linkedin.com/in/nicogonzalez22/",
+      "text": "Escribe a Izky en Linkedin"
+    },
+    "mail": {
+      "href": "mailto:nigd22@google.com",
+      "text": "Envíale un correo"
+    }
+  },
+  "footer": {
+    "createdBy": "Creado por ",
+    "name": "Izky"
+  }
+}
