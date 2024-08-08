@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: '%s | Izky',
   },
   description: 'Developer, producer, and creator.',
-  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev', 'calculizky', 'bitacorizky'],
+  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev', 'calculizky', 'bitacorizky', 'dividizky', 'isqui', 'izki'],
   openGraph: {
     title: 'Izky',
     description: 'Developer, producer, and creator.',
