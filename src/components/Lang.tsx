@@ -1,34 +1,33 @@
-'use client'
-import {
-  DropdownMenuItem,
-  DropdownMenuPortal,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-} from '@/components/ui/dropdown-menu';
+'use client';
+import { Button, buttonVariants } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 import { Locale } from '@/lib/config';
 import { setUserLocale } from '@/lib/service';
-import { Languages } from 'lucide-react';
 
-const Lang = () => {
+const Lang = ({ lang }: { lang: string }) => {
   function onChange(value: string) {
     const locale = value as Locale;
-
     setUserLocale(locale);
   }
-  return (
-    <DropdownMenuSub>
-      <DropdownMenuSubTrigger>
-        <Languages />
-        <span className='ml-2'>Select Lang</span>
-      </DropdownMenuSubTrigger>
-      <DropdownMenuPortal>
-        <DropdownMenuSubContent className='capitalize'>
-          <DropdownMenuItem onClick={() => onChange('es')}>ES</DropdownMenuItem>
-          <DropdownMenuItem onClick={() => onChange('en')}>EN</DropdownMenuItem>
-        </DropdownMenuSubContent>
-      </DropdownMenuPortal>
-    </DropdownMenuSub>
+
+  return lang === 'en' ? (
+    <Button
+      variant='ghost'
+      aria-label='toogle language'
+      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      onClick={() => onChange('es')}
+    >
+      EN
+    </Button>
+  ) : (
+    <Button
+      variant='ghost'
+      aria-label='toogle language'
+      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      onClick={() => onChange('en')}
+    >
+      ES
+    </Button>
   );
 };
 
