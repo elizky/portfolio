@@ -47,28 +47,34 @@ function PersonalInfo() {
   );
 }
 
+function ProjectCard({ project }: any) {
+  return (
+    <div className='flex items-center space-x-4 bg-secondary p-4 rounded gap-2 cursor-pointer group'>
+      <div className='w-14 h-14 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl'>
+        {project[0]}
+      </div>
+      <div className='flex-1'>
+        <h4 className='font-semibold'>{project}</h4>
+        <p className='text-sm text-muted-foreground'>Product design, UX research</p>
+      </div>
+      <ChevronRight className='w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-2 transition-all ease-in-out' />
+    </div>
+  );
+}
+
 function ProjectsCard() {
   return (
-    <Card className='m-4'>
+    <Card className='m-4 '>
       <CardHeader className='flex flex-row items-center justify-between'>
         <CardTitle>Projects</CardTitle>
-        <Button variant='ghost' className='text-sm'>
+        <Button variant='secondary' className='text-sm'>
           View All
           <ChevronRight className='w-4 h-4 ml-1' />
         </Button>
       </CardHeader>
       <CardContent className='grid gap-4'>
         {['Acme', 'Globex', 'Initech'].map((project, index) => (
-          <div key={index} className='flex items-center space-x-4'>
-            <div className='w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl'>
-              {project[0]}
-            </div>
-            <div className='flex-1'>
-              <h3 className='font-semibold'>{project}</h3>
-              <p className='text-sm text-muted-foreground'>Product design, UX research</p>
-            </div>
-            <ChevronRight className='w-5 h-5 text-muted-foreground' />
-          </div>
+          <ProjectCard key={index} project={project} />
         ))}
       </CardContent>
     </Card>
