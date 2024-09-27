@@ -97,7 +97,7 @@ export default async function RootLayout({
         >
           <NextIntlClientProvider messages={messages}>
             <main className='min-h-screen'>
-              <div className='max-w-lg sm:max-w-xl mx-auto p-4 pb-16 space-y-6'>
+              <div className='max-w-lg sm:max-w-xl mx-auto p-4 pb-20 space-y-6'>
                 {children}
               </div>
             </main>

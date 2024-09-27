@@ -8,6 +8,7 @@ interface RainbowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export function RainbowButton({ children, ...props }: RainbowButtonProps) {
   return (
     <Button
+      size='sm'
       className={cn(
         ' px-8 py-2 inline-flex items-center justify-center  font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 relative group animate-rainbow cursor-pointer border-0 bg-[length:200%] text-primary-foreground [background-clip:padding-box,border-box,border-box] [background-origin:border-box] [border:calc(0.08*1rem)_solid_transparent]',
 
