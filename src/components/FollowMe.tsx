@@ -10,13 +10,24 @@ export default function FollowMe() {
         <h4 className='font-semibold'>Follow Me</h4>
       </div>
       <div className='space-x-4'>
-        <Link href='https://www.linkedin.com/in/nicogonzalez22/' target='_blank'>
-          <Button variant='ghost' size='icon' className='bg-background rounded-full shadow'>
+        <Link
+          href='https://www.linkedin.com/in/nicogonzalez22/'
+          target='_blank'
+        >
+          <Button
+            variant='ghost'
+            size='icon'
+            className='bg-background rounded-full shadow'
+          >
             <Linkedin className='h-4 w-4' />
           </Button>
         </Link>
         <Link href='https://github.com/elizky' target='_blank'>
-          <Button variant='ghost' size='icon' className='bg-background rounded-full shadow'>
+          <Button
+            variant='ghost'
+            size='icon'
+            className='bg-background rounded-full shadow'
+          >
             <Github className='h-4 w-4' />
           </Button>
         </Link>

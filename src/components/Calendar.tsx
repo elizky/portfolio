@@ -2,7 +2,13 @@
 import { getCalApi } from '@calcom/embed-react';
 import { useEffect } from 'react';
 import { Badge } from './ui/badge';
-export default function Calendar({ time, text }: { time: string; text: string }) {
+export default function Calendar({
+  time,
+  text,
+}: {
+  time: string;
+  text: string;
+}) {
   useEffect(() => {
     (async function () {
       const cal = await getCalApi({ namespace: time });

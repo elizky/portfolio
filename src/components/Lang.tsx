@@ -14,7 +14,10 @@ const Lang = ({ lang }: { lang: string }) => {
     <Button
       variant='ghost'
       aria-label='toogle language'
-      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
       onClick={() => onChange('es')}
     >
       EN
@@ -23,7 +26,10 @@ const Lang = ({ lang }: { lang: string }) => {
     <Button
       variant='ghost'
       aria-label='toogle language'
-      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
       onClick={() => onChange('en')}
     >
       ES

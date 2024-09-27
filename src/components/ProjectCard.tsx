@@ -1,8 +1,8 @@
-import { SideProjects } from '@/lib/data';
-import { ChevronRight } from 'lucide-react';
-import { Avatar } from './ui/avatar';
-import { AvatarFallback, AvatarImage } from '@radix-ui/react-avatar';
 import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
+import { AvatarFallback, AvatarImage } from '@radix-ui/react-avatar';
+import { SideProjects } from '@/lib/interfaces';
+import { Avatar } from './ui/avatar';
 
 export default function ProjectCard({ project }: { project: SideProjects }) {
   return (

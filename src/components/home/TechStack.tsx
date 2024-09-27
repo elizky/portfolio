@@ -1,22 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-
-const techStack = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'Node.js',
-  'Express',
-  'MongoDB',
-  'PostgreSQL',
-  'GraphQL',
-  'Docker',
-  'AWS',
-  'Git',
-  'Jest',
-  'Cypress',
-  'Tailwind CSS',
-];
+import { techStack } from '@/lib/data';
 
 export function TechStack() {
   return (
@@ -29,7 +13,11 @@ export function TechStack() {
       </CardHeader>
       <CardContent className='flex flex-wrap gap-2'>
         {techStack.map((tech, index) => (
-          <Badge key={index} variant='secondary' className='text-sm font-semibold'>
+          <Badge
+            key={index}
+            variant='secondary'
+            className='text-sm font-semibold'
+          >
             {tech}
           </Badge>
         ))}

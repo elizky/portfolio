@@ -1,26 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { mediumPosts } from '@/lib/data';
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
-
-const mediumPosts = [
-  {
-    title: 'Cálculos y carnes: Cómo creé Dividizky en un fin de semana',
-    link: 'https://medium.com/@nigd22/cálculos-y-carnes-cómo-creé-dividizky-en-un-fin-de-semana-6e748afb99b6',
-  },
-  {
-    title: 'Discover the New Features in Calculizky!',
-    link: 'https://medium.com/@nigd22/discover-the-new-features-in-calculizky-2b4378d0a7f6',
-  },
-  {
-    title:
-      'From Idea to Deployment in a Weekend: How I Created Calculizky, a Web App for Expense Management',
-    link: 'https://medium.com/@nigd22/from-idea-to-deployment-in-a-weekend-how-i-created-calculizky-a-web-app-for-expense-management-5c5a9fd06237',
-  },
-  {
-    title: 'Bitacorizky: A personal touch Side Project',
-    link: 'https://medium.com/@nigd22/bitacorizky-a-personal-touch-side-project-df34db7468b8',
-  },
-];
 
 export function MediumPosts() {
   return (

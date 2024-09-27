@@ -86,7 +86,7 @@ export default async function RootLayout({
         className={cn(
           'min-h-screen bg-primary-foreground font-sans antialiased',
           lora.variable,
-          noto.variable
+          noto.variable,
         )}
       >
         <ThemeProvider

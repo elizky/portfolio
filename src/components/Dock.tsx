@@ -1,15 +1,23 @@
 import Link from 'next/link';
-import { cookies } from 'next/headers';
-import { BriefcaseBusiness, HomeIcon, LaptopMinimal, Moon, Music4, Sun, User } from 'lucide-react';
-
+import {
+  HomeIcon,
+  LaptopMinimal,
+  Music4,
+  NotebookPen,
+  User,
+} from 'lucide-react';
+import { getUserLocale } from '@/lib/service';
 import { cn } from '@/lib/utils';
-import { Button, buttonVariants } from '@/components/ui/button';
+import { buttonVariants } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 import { Dock, DockIcon } from '@/components/magicui/dock';
-import { useTheme } from 'next-themes';
-import { defaultLocale, Locale } from '@/lib/config';
-import { getUserLocale, setUserLocale } from '@/lib/service';
+
 import { ModeToggle } from './ModeToggle';
 import Lang from './Lang';
 
@@ -20,7 +28,7 @@ const DATA = {
     { href: '/', icon: HomeIcon, label: 'Home' },
     { href: '/about', icon: User, label: 'About Me ' },
     { href: '/projects', icon: LaptopMinimal, label: 'My Projects ' },
-    { href: '/job', icon: BriefcaseBusiness, label: 'Jobs' },
+    { href: '/blog', icon: NotebookPen, label: 'Blog' },
   ],
   other: [
     {
@@ -35,7 +43,10 @@ export async function DockFooter() {
   const localeLang = await getUserLocale();
   return (
     <TooltipProvider>
-      <Dock direction='middle' className='fixed bottom-4 right-1/2 translate-x-1/2 bg-background '>
+      <Dock
+        direction='middle'
+        className='fixed bottom-4 right-1/2 translate-x-1/2 bg-background '
+      >
         {DATA.navbar.map((item) => (
           <DockIcon key={item.label}>
             <Tooltip>
@@ -45,7 +56,7 @@ export async function DockFooter() {
                   aria-label={item.label}
                   className={cn(
                     buttonVariants({ variant: 'ghost', size: 'icon' }),
-                    'size-12 rounded-full'
+                    'size-12 rounded-full',
                   )}
                 >
                   <item.icon className='size-4' />
@@ -68,7 +79,7 @@ export async function DockFooter() {
                   aria-label={item.label}
                   className={cn(
                     buttonVariants({ variant: 'ghost', size: 'icon' }),
-                    'size-12 rounded-full'
+                    'size-12 rounded-full',
                   )}
                 >
                   <item.icon className='size-4' />

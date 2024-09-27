@@ -14,7 +14,10 @@ export function ModeToggle() {
     <Button
       variant='ghost'
       aria-label='toogle theme'
-      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
       onClick={() => setTheme('dark')}
     >
       <Sun className='size-4' />
@@ -23,7 +26,10 @@ export function ModeToggle() {
     <Button
       variant='ghost'
       aria-label='toogle theme'
-      className={cn(buttonVariants({ variant: 'ghost', size: 'icon' }), 'size-12 rounded-full')}
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
       onClick={() => setTheme('light')}
     >
       <Moon className='size-4' />
