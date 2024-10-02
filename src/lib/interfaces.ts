@@ -1,33 +1,36 @@
-export interface RelatedProjects {
-  image: string;
-  title: string;
-  description: string;
-  slug: string;
-}
 export interface SideProjects {
-  image: string;
-  name: string;
-  description: string;
-  link: string;
-}
-
-export interface Project {
-  slug: string;
   title: string;
-  subtitle: string;
-  icon: string;
-  description: string;
-  problemContent: string[];
-  solutionContent: string[];
-  stackContent: string[];
-  techStack: string[];
-  featuresSubtitle: string;
-  featuresContent: string[];
+  slug: string;
+  image: string;
   images: string[];
   link: string;
+  techStack: string[];
+}
+export interface ProjectDetailPageProps {
+  project: SideProjects;
+  relatedProjects: SideProjects[];
 }
 
-export interface ProjectDetailPageProps {
-  project: Project;
-  relatedProjects: RelatedProjects[];
+export interface Post {
+  article: any;
+  title: string;
+  createdBy: string;
+  date: string;
+}
+
+export interface BlogMessages {
+  BlogList: {
+    posts: Record<string, Post>;
+  };
+}
+
+export interface BlogListProps {
+  title: string;
+  aboutProjects: string;
+}
+
+export interface ProjectMessages {
+  BlogList: {
+    posts: Record<string, Post>;
+  };
 }
