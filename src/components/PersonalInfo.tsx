@@ -5,6 +5,7 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { CardContent } from "./ui/card";
 import { useTranslations } from "next-intl";
+import CopyEmailBtn from "./CopyEmailBtn";
 
 export default function PersonalInfo() {
   const t = useTranslations("personalInfo");
@@ -31,11 +32,8 @@ export default function PersonalInfo() {
           <h1 className="text-3xl font-bold mb-1">{t("heading")}</h1>
           <p className="text-muted-foreground mb-4">{t("description")}</p>
           <div className="flex space-x-2">
-            <RainbowButton>{t("hireMeButton")}</RainbowButton>
-            <Button size="sm" variant="outline" className="flex items-center">
-              <Copy className="w-4 h-4 mr-2" />
-              {t("copyEmailButton")}
-            </Button>
+            {/* <RainbowButton>{t("hireMeButton")}</RainbowButton> */}
+            <CopyEmailBtn copy={t("copyEmailButton")} copied={t("copiedEmailButton")} />
           </div>
         </div>
         <Image

@@ -21,7 +21,17 @@ export const sideProjects: SideProjects[] = [
     link: "https://calculizky.com",
     slug: "calculizky",
     images: ["/calculizky.png"],
-    techStack: ["Next.js", "React", "Tailwind CSS", "Firebase", "TypeScript"],
+    techStack: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "TypeScript",
+      "Prisma",
+      "NextAuth.js",
+      "Recharts",
+      "Neon.tech",
+    ],
   },
   {
     image: "/dividizkyIcon.png",
@@ -29,7 +39,7 @@ export const sideProjects: SideProjects[] = [
     link: "https://www.dividizky.app/",
     slug: "dividizky",
     images: ["/dividizky.png"],
-    techStack: ["Next.js", "React", "Tailwind CSS", "Firebase", "TypeScript"],
+    techStack: ["Next.js", "shadcn-ui", "next-intl", "TypeScript", "Vercel"],
   },
   {
     image: "/planizkyIcon.png",

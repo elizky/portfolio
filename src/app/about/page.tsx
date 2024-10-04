@@ -6,16 +6,19 @@ import ProjectCard from "@/components/ProjectCard";
 import { LetsTalk } from "@/components/LetsTalk";
 import FollowMe2 from "@/components/FollowMe2";
 import Footer from "@/components/Footer";
-import { useTranslations } from "next-intl";
+import { useMessages, useTranslations } from "next-intl";
+import { AboutMessage } from "@/lib/interfaces";
 
 export default function AboutPage() {
   const t = useTranslations("AboutMe");
   const tProjects = useTranslations("Projects");
+  const messages = useMessages() as unknown as AboutMessage;
+  const moreAbout = messages.AboutMe.bio;
 
   const aboutMe = {
     name: "Izky",
     avatar: "/avatar-izky.png",
-    about: t("about"),
+    about: t("title"),
     bio: t("bio"),
   };
 
@@ -32,8 +35,10 @@ export default function AboutPage() {
         height={400}
         className="rounded-lg mx-auto px-6"
       />
-      <section className="px-6">
-        <p>{aboutMe.bio}</p>
+      <section className="px-6 space-y-8">
+        {Object.values(moreAbout).map((val) => (
+          <p key={val}>{val}</p>
+        ))}
       </section>
       <section className="px-6">
         <h2 className="text-2xl font-semibold mb-2">{tProjects("title")}</h2>

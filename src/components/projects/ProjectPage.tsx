@@ -13,10 +13,19 @@ export function ProjectDetailPage({
 }: ProjectDetailPageProps) {
   const { slug, title } = project;
   const t = useTranslations(`Projects.${slug}.article`);
+  const t2 = useTranslations(`Projects`);
 
   const messages = useMessages() as any;
   const featuresContent = messages?.Projects?.[slug].article
     .featuresContent as ProjectMessages;
+
+  if (slug === "planizky") {
+    return (
+      <h3 className="text-2xl font-semibold py-32 text-center">
+        {t2("underConstruction")}
+      </h3>
+    );
+  }
 
   return (
     <div>
@@ -110,7 +119,7 @@ export function ProjectDetailPage({
         </div>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Other Projects</h2>
+          <h2 className="text-2xl font-semibold mb-4">{t('otherProjects')}</h2>
           <div className="grid gap-4">
             {relatedProjects.map((relatedProject, index) => (
               <Link key={index} href={`/projects/${relatedProject.slug}`}>

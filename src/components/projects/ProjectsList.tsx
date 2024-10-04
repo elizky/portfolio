@@ -20,6 +20,7 @@ export function ProjectsListPage({
       <h3 className="text-3xl font-bold px-6 ">{title}</h3>
       <CardContent className="space-y-6">
         <p>{aboutProjects}</p>
+        <p>{t('takeALook')}</p>
         <div className="grid gap-4">
           {sideProjects.map(({ title, slug, image }) => (
             <Link

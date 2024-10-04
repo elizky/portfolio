@@ -17,6 +17,9 @@ export interface Post {
   createdBy: string;
   date: string;
 }
+export interface AboutMessage {
+  AboutMe: Record<string, Post>;
+}
 
 export interface BlogMessages {
   BlogList: {

@@ -7,34 +7,36 @@
   "personalInfo": {
     "resumeBadge": "OBTENER MI CV",
     "heading": "Soy Izky 👋🏾",
-    "description": "Desarrollador Full Stack de Córdoba, ARG.\nActualmente trabajando en Globant.",
+    "description": "Front End Dev de Córdoba, ARG.\nActualmente trabajando en Globant.",
     "hireMeButton": "Contrátame",
-    "copyEmailButton": "Copiar Email"
+    "copyEmailButton": "Copiar Email",
+    "copiedEmailButton": "Copiado "
   },
   "Projects": {
     "title": "Proyectos",
     "viewAll": "Ver todos",
-    "aboutProjects": "En mi camino como desarrollador, descubrí que las mejores ideas y proyectos surgen de necesidades personales. Creo firmemente que si algo me ha beneficiado, también puede ayudar a otros. Por eso he canalizado mi pasión por la tecnología y la programación en la creación de proyectos personales que resuelven problemas cotidianos y ofrecen soluciones innovadoras.",
+    "aboutProjects": "Como desarrollador, he aprendido que las mejores ideas surgen de lo que realmente necesito. Si algo me ha hecho la vida más fácil, seguro que también puede ayudar a otros. Por eso, he puesto mi pasión por la tecnología en proyectos personales que resuelven problemas cotidianos y aportan soluciones creativas.",
+    "takeALook": "Echa un vistazo a mis proyectos",
     "bitacorizky": {
       "name": "Bitacorizky",
       "description": "Un diario digital seguro",
       "article": {
-        "longDescription": "Bitacorizky is a secure and private digital journaling platform that combines the authenticity of traditional journaling with modern digital convenience.",
-        "problemSubtitle": "The problem to solve",
-        "solutionSubtitle": "Our solution",
-        "stackSubtitle": "Tech Stack",
-        "otherProjects": "Other Projects",
-        "problemContent": "In today's digital age, many people struggle to find a safe and private space to express their thoughts and memories. Traditional journals can be lost or damaged, while digital solutions often lack the necessary privacy and security features. Bitacorizky was born out of the need for a secure, digital journaling platform that respects user privacy while offering the convenience of modern technology.",
-        "solutionContent": "Bitacorizky provides a user-friendly interface for daily journaling, coupled with robust security measures to ensure user privacy. The application allows users to create entries, attach photos, and even record their location for each entry. We implemented end-to-end encryption to protect user data, ensuring that only the user can access their journal entries. The application also offers features like language switching and cloud backup for added convenience and peace of mind.",
-        "stackContent": "The frontend is developed with Next.js 14, leveraging server-side rendering for optimal performance. Tailwind CSS is used for styling, creating an elegant and minimalist design. On the backend, we utilized Firebase for user authentication, database management, and cloud storage. This allows for secure and scalable data handling.",
+        "longDescription": "Bitacorizky es una plataforma de journaling digital que combina la autenticidad del journaling tradicional con la comodidad de la tecnología moderna. Aquí puedes expresar tus pensamientos y recuerdos de manera segura y privada.",
+        "problemSubtitle": "El Problema a Resolver",
+        "problemContent": "En la era digital, muchas personas tienen dificultades para encontrar un espacio seguro y privado para expresar sus pensamientos. Los diarios tradicionales pueden perderse o dañarse, mientras que las soluciones digitales a menudo no ofrecen la privacidad y seguridad necesarias. Bitacorizky nace para llenar este vacío, proporcionando un diario digital que respeta la privacidad del usuario.",
+        "solutionSubtitle": "La Solución",
+        "solutionContent": "Bitacorizky ofrece una interfaz amigable para el journaling diario, junto con medidas de seguridad robustas. Puedes crear entradas, adjuntar fotos y registrar tu ubicación. Implementamos cifrado de extremo a extremo para proteger tus datos, asegurando que solo tú puedas acceder a tus entradas. Además, la aplicación incluye funciones como cambio de idioma y respaldo en la nube para mayor conveniencia.",
+        "stackSubtitle": "Tecnologías Utilizadas",
+        "stackContent": "El frontend está desarrollado con Next.js 14, aprovechando el renderizado del lado del servidor para un rendimiento óptimo. Usamos Tailwind CSS para un diseño elegante y minimalista. En el backend, utilizamos Firebase para la autenticación de usuarios, gestión de bases de datos y almacenamiento en la nube.",
         "featuresSubtitle": "Key Features of Bitacorizky",
         "featuresContent": {
-          "1": "Secure, encrypted journal entries",
-          "2": "Photo attachment capability",
-          "3": "Location tagging for entries",
-          "4": "Multi-language support",
-          "5": "Cloud backup and sync"
+          "1": "Entradas de diario seguras y cifradas",
+          "2": "Capacidad para adjuntar fotos",
+          "3": "Etiquetado de ubicación",
+          "4": "Soporte multilingüe",
+          "5": "Respaldo y sincronización en la nube"
         },
+        "otherProjects": "Otros Proyectos",
         "goTo": "Ir al sitio"
       }
     },
@@ -42,21 +44,22 @@
       "name": "Calculizky",
       "description": "App de gestión financiera",
       "article": {
-        "longDescription": "Welcome to Calculizky! Calculizky is a financial management application designed to provide insightful tools that help you better understand and manage your personal finances. With the perfect blend of simplicity and advanced features, it's your comprehensive solution for financial well-being.",
-        "problemSubtitle": "The problem to solve",
-        "solutionSubtitle": "Our solution",
-        "stackSubtitle": "Tech Stack",
-        "otherProjects": "Other Projects",
-        "problemContent": "The idea behind Calculizky stems from the challenges many individuals face when tracking their financial activities. With diverse income sources, varied expenses, and complex financial goals, a unified platform was needed that would provide clear insights and facilitate informed decision-making.",
-        "solutionContent": "Bitacorizky provides a user-friendly interface for daily journaling, coupled with robust security measures to ensure user privacy. The application allows users to create entries, attach photos, and even record their location for each entry. We implemented end-to-end encryption to protect user data, ensuring that only the user can access their journal entries. The application also offers features like language switching and cloud backup for added convenience and peace of mind.",
-        "stackContent": "Calculizky leverages cutting-edge technologies to deliver a seamless user experience. The frontend is developed using React for its flexibility and efficiency, and Recharts is employed to visualize financial data intuitively. On the backend, Node.js with Express powers the server, and Prisma is used as the database toolkit for efficient data management. Authentication is securely handled with NextAuth.js to ensure user privacy and data protection.",
-        "featuresSubtitle": "Explore the powerful features Calculizky puts at your fingertips:",
+        "longDescription": "Calculizky es una aplicación de gestión financiera que te ayuda a controlar tus ingresos y gastos de manera eficiente, brindando una visión clara y detallada de tus finanzas desde cualquier dispositivo.",
+        "problemSubtitle": "El Problema a Resolver",
+        "problemContent": "En la vida cotidiana, muchos de nosotros enfrentamos dificultades para hacer un seguimiento adecuado de nuestros gastos e ingresos. Las hojas de cálculo, aunque confiables, pueden ser tediosas, y muchas aplicaciones financieras existentes carecen de la personalización y seguridad que los usuarios necesitan. La solución debía ser una plataforma accesible, intuitiva y segura que facilitara la gestión financiera diaria.",
+        "solutionSubtitle": "La Solución",
+        "solutionContent": "Calculizky es una plataforma fácil de usar que permite registrar y categorizar gastos e ingresos de forma rápida y eficiente. Con la ayuda de gráficos interactivos y herramientas de presupuesto personalizadas, los usuarios pueden visualizar sus finanzas de manera clara y tomar decisiones informadas. Además, la aplicación permite gestionar gastos con tarjeta de crédito a través de una sección especial llamada Tarjetizky y ofrece exportación de datos en formatos .CSV y .XLSM. Todo está respaldado por un sistema de autenticación seguro y cifrado para proteger la información financiera de los usuarios.",
+        "stackSubtitle": "Stack Tecnológico",
+        "stackContent": "El frontend utiliza React y Next.js para ofrecer una interfaz rápida y eficiente, mientras que el backend está gestionado con Node.js, Express y PostgreSQL, utilizando Prisma como ORM para simplificar el manejo de datos. La autenticación está manejada por NextAuth.js, y la aplicación está desplegada en Vercel, con la base de datos alojada en neon.tech.",
+        "featuresSubtitle": "Características clave de Calculizky:",
         "featuresContent": {
-          "1": "Effortlessly record and categorize your expenses and income, providing a comprehensive view of your financial transactions.",
-          "2": "Dynamic charts and tables offer visualizations of your spending patterns, helping you identify trends and make informed financial decisions.",
-          "3": "Customizable budgeting tools allow you to set financial goals and track your progress over time.",
-          "4": "Secure authentication and data encryption to ensure the confidentiality and privacy of your financial information."
+          "1": "Registro y categorización de ingresos y gastos",
+          "2": "Gráficos dinámicos para visualizar patrones de gasto",
+          "3": "Gestión de gastos con tarjeta de crédito en Tarjetizky",
+          "4": "Exportación de datos en .CSV y .XLSM",
+          "5": "Autenticación segura y cifrado de datos"
         },
+        "otherProjects": "Otros Proyectos",
         "goTo": "Ir al sitio"
       }
     },
@@ -64,21 +67,21 @@
       "name": "Dividizky",
       "description": "Divisor de gastos",
       "article": {
-        "longDescription": "Welcome to Calculizky! Calculizky is a financial management application designed to provide insightful tools that help you better understand and manage your personal finances. With the perfect blend of simplicity and advanced features, it's your comprehensive solution for financial well-being.",
-        "problemSubtitle": "The problem to solve",
-        "solutionSubtitle": "Our solution",
-        "stackSubtitle": "Tech Stack",
-        "otherProjects": "Other Projects",
-        "problemContent": "The idea behind Calculizky stems from the challenges many individuals face when tracking their financial activities. With diverse income sources, varied expenses, and complex financial goals, a unified platform was needed that would provide clear insights and facilitate informed decision-making.",
-        "solutionContent": "Bitacorizky provides a user-friendly interface for daily journaling, coupled with robust security measures to ensure user privacy. The application allows users to create entries, attach photos, and even record their location for each entry. We implemented end-to-end encryption to protect user data, ensuring that only the user can access their journal entries. The application also offers features like language switching and cloud backup for added convenience and peace of mind.",
-        "stackContent": "Calculizky leverages cutting-edge technologies to deliver a seamless user experience. The frontend is developed using React for its flexibility and efficiency, and Recharts is employed to visualize financial data intuitively. On the backend, Node.js with Express powers the server, and Prisma is used as the database toolkit for efficient data management. Authentication is securely handled with NextAuth.js to ensure user privacy and data protection.",
-        "featuresSubtitle": "Explore the powerful features Calculizky puts at your fingertips:",
+        "longDescription": "Dividizky nació de la necesidad de simplificar el proceso de dividir gastos entre amigos. Ya sea una cena, un viaje u otro gasto compartido, la aplicación calcula rápidamente cuánto debe pagar cada persona y a quién. Diseñada con simplicidad en mente, Dividizky se enfoca en evitar que se tenga que hacer cuentas complicadas durante momentos de diversión. La app permite agregar participantes, registrar sus gastos y obtener un desglose claro de cómo saldar las cuentas. Con unos pocos clics, incluso puedes compartir los resultados por WhatsApp.",
+        "problemSubtitle": "El Problema a Resolver",
+        "problemContent": "Cuando los amigos se reúnen y comparten gastos, es común que algunos paguen más mientras que otros pagan menos o nada. Esto puede generar confusión o conversaciones incómodas sobre quién le debe a quién. Dividizky resuelve este problema automatizando el cálculo de los gastos y asegurando que todos paguen su parte justa, eliminando malentendidos y simplificando el proceso.",
+        "solutionSubtitle": "La Solución",
+        "solutionContent": "Dividizky ofrece una interfaz intuitiva donde los usuarios pueden agregar rápidamente a los participantes y sus gastos. La app calcula el total gastado y determina quién le debe a quién, asegurando equidad. Los usuarios pueden compartir los resultados con su grupo vía WhatsApp para facilitar la comunicación. Además, la aplicación es multilingüe, permitiendo su uso en distintos países sin barreras de idioma.",
+        "stackSubtitle": "Stack Tecnológico",
+        "stackContent": "Para el desarrollo de Dividizky se utilizaron tecnologías modernas y eficientes que aseguran una experiencia rápida y escalable. Next.js fue la elección para el framework principal, complementado con shadcn-ui para un diseño limpio y funcional. La internacionalización se gestionó con next-intl, lo que permite que la aplicación soporte varios idiomas de manera fluida. Finalmente, Vercel fue la plataforma elegida para el despliegue, garantizando un acceso rápido y confiable desde cualquier dispositivo.",
+        "featuresSubtitle": "Características clave de Dividizky",
         "featuresContent": {
-          "1": "Effortlessly record and categorize your expenses and income, providing a comprehensive view of your financial transactions.",
-          "2": "Dynamic charts and tables offer visualizations of your spending patterns, helping you identify trends and make informed financial decisions.",
-          "3": "Customizable budgeting tools allow you to set financial goals and track your progress over time.",
-          "4": "Secure authentication and data encryption to ensure the confidentiality and privacy of your financial information."
+          "1": "Agregar participantes y sus gastos.",
+          "2": "Calcular automáticamente cuánto debe cada persona y a quién.",
+          "3": "Compartir los resultados con amigos a través de WhatsApp.",
+          "4": "Soporte multilingüe gracias a la integración de next-intl."
         },
+        "otherProjects": "Otros Proyectos",
         "goTo": "Ir al sitio"
       }
     },
@@ -90,7 +93,6 @@
         "problemSubtitle": "The problem to solve",
         "solutionSubtitle": "Our solution",
         "stackSubtitle": "Tech Stack",
-        "otherProjects": "Other Projects",
         "problemContent": "The idea behind Calculizky stems from the challenges many individuals face when tracking their financial activities. With diverse income sources, varied expenses, and complex financial goals, a unified platform was needed that would provide clear insights and facilitate informed decision-making.",
         "solutionContent": "Bitacorizky provides a user-friendly interface for daily journaling, coupled with robust security measures to ensure user privacy. The application allows users to create entries, attach photos, and even record their location for each entry. We implemented end-to-end encryption to protect user data, ensuring that only the user can access their journal entries. The application also offers features like language switching and cloud backup for added convenience and peace of mind.",
         "stackContent": "Calculizky leverages cutting-edge technologies to deliver a seamless user experience. The frontend is developed using React for its flexibility and efficiency, and Recharts is employed to visualize financial data intuitively. On the backend, Node.js with Express powers the server, and Prisma is used as the database toolkit for efficient data management. Authentication is securely handled with NextAuth.js to ensure user privacy and data protection.",
@@ -101,9 +103,11 @@
           "3": "Customizable budgeting tools allow you to set financial goals and track your progress over time.",
           "4": "Secure authentication and data encryption to ensure the confidentiality and privacy of your financial information."
         },
+        "otherProjects": "Otros Proyectos",
         "goTo": "Ir al sitio"
       }
-    }
+    },
+    "underConstruction": "Este proyecto esta en construcción"
   },
   "TechStack": {
     "title": "Stack Tecnológico"
@@ -133,12 +137,16 @@
     "title": "Seguime"
   },
   "AboutMe": {
-    "about": "¡Hola! Soy Izky, pero mi mamá me llama Nicolás cuando se enoja. Soy desarrollador Front End desde la pandemia, antes de eso fui músico.",
-    "bio": "Cuando no estoy inmerso en líneas de código, me gusta dejar volar mi creatividad tocando música y componiendo canciones. ¡También soy un aficionado a los deportes y disfruto viendo partidos con amigos, siempre animando a mi equipo, Boca Juniors!"
+    "title": "¡Hola! Soy Izky, pero cuando las cosas se ponen serias, mi mamá me llama Nicolás. Soy desarrollador Front End desde la pandemia, aunque antes de eso me pasé un buen tiempo siendo músico.",
+    "bio": {
+      "1": "Amo lo que hago: crear soluciones digitales que puedan simplificar la vida de los demás. Siempre estoy buscando maneras de mejorar, aprender nuevas tecnologías y aplicar lo que ya sé en proyectos que me apasionan, como Bitacorizky, una app que mezcla seguridad digital con la magia de los diarios tradicionales, o Calculizky, que ayuda a las personas a manejar sus finanzas personales sin dolores de cabeza.",
+      "2": "Cuando no estoy programando, seguro me encuentres con una guitarra en la mano componiendo alguna nueva canción, o en la cancha de tenis o fútbol, intentando no perder ritmo. Soy hincha fiel de Boca Juniors, y no hay nada como ver un partido con amigos.",
+      "3": "Ah, y si hay algo que me define, es la curiosidad. Siempre estoy explorando, sea en código o en la vida."
+    }
   },
   "Blog": {
     "title": "Blog",
-    "subtitle": "A veces me gusta escribir artículos no aptos para Medium... "
+    "subtitle": "Un poco de todo: tecnología, música, y pensamientos."
   },
   "BlogList": {
     "posts": {
@@ -172,31 +180,6 @@
           "5": {
             "title": "Contacto",
             "text1": "Si te has quedado con ganas de saber más sobre Izky, ya sea en el mundo del desarrollo o en sus exploraciones tecnológicas, no dudes en ponerte en contacto. Un gran desarrollador siempre está abierto a nuevas oportunidades y colaboraciones, y nuestro protagonista no es la excepción."
-          }
-        }
-      },
-      "another-post": {
-        "title": "Otro post interesante",
-        "createdBy": "Autor Desconocido",
-        "date": "Publicado el 5 de Septiembre de 2023",
-        "article": {
-          "1": {
-            "text": "No hay límites para las posibilidades en internet, ¿verdad? Eso se planteó alguna vez un joven estudiante de programación con un talento oculto para el código cuando comenzó a crear sus primeros proyectos web. Hoy, es un desarrollador senior que destaca por su creatividad diferencial y pensamiento lateral",
-            "subtitle": "Estamos hablando de Izky. Bueno, tal vez no lo conozcas. Déjame contarte quién diablos es este muchacho y cómo llegó a convertirse en ello."
-          },
-          "2": {
-            "title": "Baby dev steps",
-            "text1": "Primero comencemos con una breve historia de cómo Izky ha comenzado en el mundo del desarrollo. Su primer trabajo fue en MobyDigital, empresa argentina donde perfeccionó el arte de hacer aplicaciones web con Angular.",
-            "text2": "Luego, su breve pero intenso paso por Flexxus como desarrollador full-stack le permitió dominar las API REST con Node.js y mantener aplicaciones web sin perder la cabeza.",
-            "text3": "Luego de un tiempo y mucha práctica en desarrollo, en enero de 2021 logra consolidar sus skills programadoras obteniendo su trabajo en Globant como Web UI. Jugando en las grandes ligas, Izky pudo poner en práctica su dominio de tecnologías como Angular, React y Next.js, convirtiéndose en una pieza clave del equipo agile.",
-            "text4": "Ha creado librerías en Storybook, ha desarrollado micro frontends… Nuestro amigo se ha probado a sí mismo en numerosas tecnologías y herramientas. Además, ha liderado equipos, probando que no solo sabe escribir código, sino también guiar a otros en la jungla tecnológica."
-          },
-          "3": {
-            "title": "Cómo entrenar a tu desarrollador",
-            "text1": "Todo personaje cinematográfico debe enfrentar una exigente etapa de entrenamiento para poder consolidarse en su campo de juego. Para nuestro personaje, esto fue clave. Por eso, se aprovechó de su mente creativa y comenzó a buscar problemas reales a los que generarle una solución web.",
-            "text2": "Así nacieron Bitacorizky y Calculizky, dos aplicaciones que no solo resuelven necesidades cotidianas, sino que también aportan un toque de innovación.",
-            "text3": "Bitacorizky es un diario digital seguro y privado, ideal para aquellos que quieren expresar sus pensamientos sin temor a ser descubiertos. Este proyecto nació de la necesidad de nuestro desarrollador de tener un lugar seguro y rápido para escribir sus pensamientos más fugaces y sus reflexiones más profundas.",
-            "text4": "Calculizky, por otro lado, es una aplicación de gestión financiera diseñada para que hasta el más despistado pueda entender y manejar sus finanzas personales. Esta herramienta es esencial para quienes buscan un poco de luz en el oscuro mundo de las finanzas."
           }
         }
       }
