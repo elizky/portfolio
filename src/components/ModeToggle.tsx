@@ -1,44 +1,38 @@
 'use client';
 
-import { Laptop, Moon, Sun } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 
-import {
-  DropdownMenuItem,
-  DropdownMenuPortal,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-} from '@/components/ui/dropdown-menu';
-import { useTranslations } from 'next-intl';
+import { cn } from '@/lib/utils';
+
+import { Button, buttonVariants } from '@/components/ui/button';
 
 export function ModeToggle() {
-  const { setTheme } = useTheme();
-  const t = useTranslations('theme');
+  const { setTheme, theme } = useTheme();
 
-  return (
-    <DropdownMenuSub >
-      <DropdownMenuSubTrigger>
-        <Sun className='h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
-        <Moon className='absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100' />
-        <span className='ml-2'>Toggle theme</span>
-      </DropdownMenuSubTrigger>
-      <DropdownMenuPortal>
-        <DropdownMenuSubContent className='capitalize'>
-          <DropdownMenuItem onClick={() => setTheme('light')}>
-            <Sun className='mr-2 h-4 w-4' />
-            {t('light')}
-          </DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setTheme('dark')}>
-            <Moon className='mr-2 h-4 w-4' />
-            {t('dark')}
-          </DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setTheme('system')}>
-            <Laptop className='mr-2 h-4 w-4' />
-            {t('system')}
-          </DropdownMenuItem>
-        </DropdownMenuSubContent>
-      </DropdownMenuPortal>
-    </DropdownMenuSub>
+  return theme === 'light' ? (
+    <Button
+      variant='ghost'
+      aria-label='toogle theme'
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
+      onClick={() => setTheme('dark')}
+    >
+      <Sun className='size-4' />
+    </Button>
+  ) : (
+    <Button
+      variant='ghost'
+      aria-label='toogle theme'
+      className={cn(
+        buttonVariants({ variant: 'ghost', size: 'icon' }),
+        'size-12 rounded-full',
+      )}
+      onClick={() => setTheme('light')}
+    >
+      <Moon className='size-4' />
+    </Button>
   );
 }

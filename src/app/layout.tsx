@@ -7,8 +7,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/lib/theme-provider';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import { DockFooter } from '@/components/Dock';
 
 const noto = Noto_Sans({
   weight: ['400', '700'],
@@ -30,7 +29,16 @@ export const metadata: Metadata = {
     template: '%s | Izky',
   },
   description: 'Developer, producer, and creator.',
-  keywords: ['Izky', 'Nicolas Gonzalez', 'izky dev', 'calculizky', 'bitacorizky', 'dividizky', 'isqui', 'izki'],
+  keywords: [
+    'Izky',
+    'Nicolas Gonzalez',
+    'izky dev',
+    'calculizky',
+    'bitacorizky',
+    'dividizky',
+    'isqui',
+    'izki',
+  ],
   openGraph: {
     title: 'Izky',
     description: 'Developer, producer, and creator.',
@@ -72,14 +80,13 @@ export default async function RootLayout({
 
   const messages = await getMessages();
 
-
   return (
     <html lang={locale}>
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased',
+          'min-h-screen bg-primary-foreground font-sans antialiased',
           lora.variable,
-          noto.variable
+          noto.variable,
         )}
       >
         <ThemeProvider
@@ -89,9 +96,12 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <Header />
-            {children}
-            <Footer />
+            <main className='min-h-screen'>
+              <div className='max-w-lg sm:max-w-xl mx-auto p-4 pb-20 space-y-6'>
+                {children}
+              </div>
+            </main>
+            <DockFooter />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

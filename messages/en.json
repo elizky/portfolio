@@ -4,78 +4,198 @@
     "dark": "dark",
     "system": "system"
   },
-  "hero": {
-    "title": "Who the heck is Izky? Find Out Here",
-    "createdBy": "Someone",
-    "date": "Published on"
+  "personalInfo": {
+    "resumeBadge": "GET MY RESUME",
+    "heading": "I'm Izky 👋🏾",
+    "description": "Front End Dev from Córdoba, ARG.\nCurrently working at Globant.",
+    "hireMeButton": "Hire Me",
+    "copyEmailButton": "Copy Email",
+    "copiedEmailButton": "Copied "
   },
-  "article": {
-    "1": {
-      "text": "There are no limits to the possibilities on the internet, right? That’s what a young programming student with a hidden talent for coding once thought when he started creating his first web projects. Today, he is a senior developer who stands out for his unique creativity and lateral thinking.",
-      "subtitle": "We're talking about Izky. Well, maybe you don't know him. Let me tell you who the heck this guy is and how he got to be who he is today."
+  "Projects": {
+    "title": "Projects",
+    "viewAll": "View All",
+    "aboutProjects": "As a developer, I’ve learned that the best ideas come from what I actually need. If something has made my life easier, it can definitely help others too. That’s why I’ve channeled my passion for tech into personal projects that solve everyday problems and offer creative solutions.",
+    "takeALook": "Take a look at my projects",
+    "bitacorizky": {
+      "name": "Bitacorizky",
+      "description": "A secure digital journal",
+      "article": {
+        "longDescription": "Bitacorizky is a digital journaling platform that combines the authenticity of traditional journaling with the convenience of modern technology. Here, you can express your thoughts and memories safely and privately.",
+        "problemSubtitle": "The problem to solve",
+        "problemContent": "In today's digital age, many people struggle to find a safe and private space to express their thoughts. Traditional journals can be lost or damaged, while digital solutions often lack the necessary privacy and security features. Bitacorizky was created to fill this gap, providing a digital journal that respects user privacy.",
+        "solutionSubtitle": "The solution",
+        "solutionContent": "Bitacorizky offers a user-friendly interface for daily journaling, along with robust security measures. You can create entries, attach photos, and record your location. We implemented end-to-end encryption to protect your data, ensuring that only you can access your entries. The app also includes features like language switching and cloud backup for added convenience.",
+        "stackSubtitle": "Tech Stack",
+        "stackContent": "The frontend is developed with Next.js 14, leveraging server-side rendering for optimal performance. We use Tailwind CSS for an elegant and minimalist design. On the backend, we utilize Firebase for user authentication, database management, and cloud storage.",
+        "featuresSubtitle": "Key Features of Bitacorizky",
+        "featuresContent": {
+          "1": "Secure, encrypted journal entries",
+          "2": "Photo attachment capability",
+          "3": "Location tagging for entries",
+          "4": "Multi-language support",
+          "5": "Cloud backup and sync"
+        },
+        "otherProjects": "Other Projects",
+        "goTo": "Live Website"
+      }
     },
-    "2": {
-      "title": "Baby dev steps",
-      "text1": "Let's start with a brief story of how Izky began his journey into the world of development. His first job was at MobyDigital, an Argentine company where he perfected the art of making web applications with Angular.",
-      "text2": "Then, his brief but intense stint at Flexxus as a full-stack developer allowed him to master REST APIs with Node.js and maintain web applications without losing his mind.",
-      "text3": "After some time and a lot of practice in development, in January 2021, he managed to consolidate his programming skills by landing a job at Globant as a Web UI. Playing in the big leagues, Izky was able to put his mastery of technologies like Angular, React, and Next.js into practice, becoming a key member of the agile team.",
-      "text4": "He has created libraries in Storybook, developed micro frontends… Our friend has proven himself in numerous technologies and tools. In addition, he has led teams, proving that he not only knows how to write code but also how to guide others through the technological jungle."
+    "calculizky": {
+      "name": "Calculizky",
+      "description": "Financial management app",
+      "article": {
+        "longDescription": "Calculizky is a financial management application that helps users efficiently track their income and expenses, providing a clear and detailed view of their finances from any device.",
+        "problemSubtitle": "The problem to solve",
+        "problemContent": "Many people struggle with keeping an organized and clear track of their financial activities. While spreadsheets are reliable, they can be tedious, and existing financial apps often lack the customization and security users need. The solution required a platform that is accessible, intuitive, and secure to simplify everyday financial management.",
+        "solutionSubtitle": "Our solution",
+        "solutionContent": "Calculizky provides an easy-to-use platform that allows users to quickly and efficiently record and categorize their income and expenses. With interactive charts and customizable budgeting tools, users can clearly visualize their finances and make informed decisions. The app also includes a dedicated section for managing credit card expenses called Tarjetizky and allows data export in .CSV and .XLSM formats. All of this is backed by secure authentication and encryption to protect users’ financial data.        ",
+        "stackSubtitle": "Tech Stack",
+        "stackContent": "The frontend is built using React and Next.js to deliver a fast and efficient user interface, while the backend is powered by Node.js, Express, and PostgreSQL, with Prisma as the ORM to simplify data management. Authentication is handled by NextAuth.js, and the application is deployed on Vercel, with the database hosted on neon.tech.",
+        "featuresSubtitle": "Explore the powerful features Calculizky puts at your fingertips",
+        "featuresContent": {
+          "1": "Effortlessly record and categorize income and expenses",
+          "2": "Dynamic charts to visualize spending patterns",
+          "3": "Credit card expense management in Tarjetizky",
+          "4": "Export data in .CSV and .XLSM formats",
+          "5": "Secure authentication and data encryption"
+        },
+        "otherProjects": "Other Projects",
+        "goTo": "Live Website"
+      }
     },
-    "3": {
-      "title": "How to train your developer",
-      "text1": "Every cinematic character must face a rigorous training phase to consolidate their skills in their field. For our character, this was crucial. That’s why he leveraged his creative mind and began looking for real problems to solve with a web solution.",
-      "text2": "This is how Bitacorizky and Calculizky were born, two applications that not only solve everyday needs but also add a touch of innovation.",
-      "text3": "Bitacorizky is a secure and private digital diary, ideal for those who want to express their thoughts without fear of being discovered. This project was born from our developer's need to have a safe and quick place to write his most fleeting thoughts and deepest reflections.",
-      "text4": "Calculizky, on the other hand, is a financial management application designed so that even the most absent-minded individuals can understand and manage their personal finances. This tool is essential for those seeking a bit of light in the dark world of finances."
+    "dividizky": {
+      "name": "Dividizky",
+      "description": "Expense divider",
+      "article": {
+        "longDescription": "Dividizky was born from the need to simplify the process of dividing expenses between friends. Whether it’s a dinner, a trip, or any other shared expense, the app quickly calculates how much each person owes and to whom. Designed with simplicity in mind, Dividizky focuses on making sure no one needs to do complicated math during fun times with friends. The app allows you to add participants, register their expenses, and get a clear breakdown of how to settle up. With just a few clicks, you can even share the results via WhatsApp.",
+        "problemSubtitle": "The problem to solve",
+        "problemContent": "When friends get together and share expenses, it’s common for someone to pay more, while others pay less or nothing at all. This can lead to confusion or awkward conversations about who owes whom. Dividizky solves this by automating the process of calculating expenses and ensuring everyone pays their fair share, eliminating misunderstandings and simplifying the process.",
+        "solutionSubtitle": "Our solution",
+        "solutionContent": "Dividizky offers an intuitive interface where users can quickly add participants and their expenses. The app calculates the total amount spent and determines who owes whom, ensuring fairness. Users can share the results with their group via WhatsApp for easy communication. Additionally, the app is multilingual, so users from different countries can use it without language barriers.",
+        "stackSubtitle": "Tech Stack",
+        "stackContent": "Dividizky was built using modern and efficient technologies that ensure a fast and scalable experience. Next.js was chosen as the main framework, complemented by shadcn-ui for a clean and functional design. Internationalization was managed with next-intl, allowing the app to support multiple languages seamlessly. Finally, Vercel was selected for deployment, ensuring quick and reliable access from any device.",
+        "featuresSubtitle": "Key Features of Dividizky",
+        "featuresContent": {
+          "1": "Add participants and their expenses.",
+          "2": "Automatically calculate how much each person owes and to whom.",
+          "3": "Share the results with friends via WhatsApp.",
+          "4": "Multilingual support thanks to next-intl integration."
+        },
+        "otherProjects": "Other Projects",
+        "goTo": "Live Website"
+      }
     },
-    "4": {
-      "title": "Beyond Code",
-      "text1": "When he’s not creating his next big tech project, Izky enjoys playing soccer and tennis, sports he practices with the same passion he puts into his projects. Additionally, he composes music and plays various instruments, as part of his former profession as a Music Producer. His life goal is to demonstrate that creativity and technique can coexist harmoniously, truly being multifaceted.",
-      "text2": " ",
-      "text3": " ",
-      "text4": " "
+    "planizky": {
+      "name": "Planizky - WIP 🚧",
+      "description": "Gym tracker",
+      "article": {
+        "longDescription": "Bitacorizky is a secure and private digital journaling platform that combines the authenticity of traditional journaling with modern digital convenience.",
+        "problemSubtitle": "The problem to solve",
+        "problemContent": "In today's digital age, many people struggle to find a safe and private space to express their thoughts and memories. Traditional journals can be lost or damaged, while digital solutions often lack the necessary privacy and security features. Bitacorizky was born out of the need for a secure, digital journaling platform that respects user privacy while offering the convenience of modern technology.",
+        "solutionSubtitle": "Our solution",
+        "solutionContent": "Bitacorizky provides a user-friendly interface for daily journaling, coupled with robust security measures to ensure user privacy. The application allows users to create entries, attach photos, and even record their location for each entry. We implemented end-to-end encryption to protect user data, ensuring that only the user can access their journal entries. The application also offers features like language switching and cloud backup for added convenience and peace of mind.",
+        "stackSubtitle": "Tech Stack",
+        "stackContent": "The frontend is developed with Next.js 14, leveraging server-side rendering for optimal performance. Tailwind CSS is used for styling, creating an elegant and minimalist design. On the backend, we utilized Firebase for user authentication, database management, and cloud storage. This allows for secure and scalable data handling.",
+        "featuresSubtitle": "Key Features of Bitacorizky",
+        "featuresContent": {
+          "1": "Secure, encrypted journal entries",
+          "2": "Photo attachment capability",
+          "3": "Location tagging for entries",
+          "4": "Multi-language support",
+          "5": "Cloud backup and sync"
+        },
+        "otherProjects": "Other Projects",
+        "goTo": "Live Website"
+      }
     },
-    "5": {
-      "title": "Contact",
-      "text1": "If you are eager to learn more about Izky, whether in the world of development or his technological explorations, do not hesitate to get in touch. A great developer is always open to new opportunities and collaborations, and our protagonist is no exception.",
-      "text2": " ",
-      "text3": " ",
-      "text4": " "
+    "underConstruction": "This project is under construction"
+  },
+  "TechStack": {
+    "title": "Tech Stack"
+  },
+  "LetsTalk": {
+    "title": "Let's Talk!",
+    "description": "Set up a meeting so we can talk!",
+    "15min": "15 min",
+    "30min": "30 min"
+  },
+  "MediumPosts": {
+    "title": "Medium Posts",
+    "post1": {
+      "title": "Cálculos y carnes: How I created Dividizky in a weekend"
+    },
+    "post2": {
+      "title": "Discover the New Features in Calculizky!"
+    },
+    "post3": {
+      "title": "From Idea to Deployment in a Weekend: How I Created Calculizky"
+    },
+    "post4": {
+      "title": "Bitacorizky: A personal touch Side Project"
     }
   },
-  "relatedPost": {
-    "1": {
-      "title": "Bitacorizky: A Personal Touch Side Project",
-      "image": "/bitacorizky.png",
-      "date": "Jan 15, 2024",
-      "link": "https://medium.com/@nigd22/bitacorizky-a-personal-touch-side-project-df34db7468b8"
-    },
-    "2": {
-      "title": "From Idea to Deployment in a Weekend: How I Created Calculizky, a Web App for Expense Management",
-      "image": "/calculizky.png",
-      "date": "Feb 8, 2024",
-      "link": "https://medium.com/@nigd22/from-idea-to-deployment-in-a-weekend-how-i-created-calculizky-a-web-app-for-expense-management-5c5a9fd06237"
-    },
-    "3": {
-      "title": "Discover the New Features in Calculizky!",
-      "image": "/an-old-calulator.jpg",
-      "date": "Jun 13, 2024",
-      "link": "https://medium.com/@nigd22/discover-the-new-features-in-calculizky-2b4378d0a7f6"
+  "FollowMe": {
+    "title": "Follow Me"
+  },
+  "AboutMe": {
+    "title": "Hi! I’m Izky, but when things get serious, my mom calls me Nicolás. I’ve been a Front-End Developer since the pandemic, but before that, I spent quite some time as a musician.",
+    "bio": {
+      "1": "I love what I do: creating digital solutions that make people’s lives easier. I’m always looking to improve, learn new technologies, and apply what I know to projects that I’m passionate about, like Bitacorizky, an app that combines digital security with the magic of traditional journaling, or Calculizky, which helps people manage their personal finances without the headaches.",
+      "2": "When I’m not coding, you’ll probably find me with a guitar in hand, composing a new song, or on the tennis or soccer field, trying to keep up. I’m a die-hard Boca Juniors fan, and there’s nothing like watching a game with friends.",
+      "3": "Oh, and if there’s one thing that defines me, it’s curiosity. I’m always exploring, whether it’s in code or in life."
     }
   },
-  "links": {
-    "resume": {
-      "href": "/NicolasGonzalez-en.pdf",
-      "text": "Get Izky's Resume"
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "A bit of everything: tech, music, and thoughts."
+  },
+  "BlogList": {
+    "posts": {
+      "me": {
+        "title": "Who the heck is Izky? Find out here",
+        "createdBy": "Someone",
+        "date": "Published on October 10, 2023",
+        "article": {
+          "1": {
+            "text": "There are no limits to the possibilities on the internet, right? That’s what a young programming student with a hidden talent for coding once thought when he started creating his first web projects. Today, he is a senior developer who stands out for his unique creativity and lateral thinking.",
+            "subtitle": "We're talking about Izky. Well, maybe you don't know him. Let me tell you who the heck this guy is and how he got to be who he is today."
+          },
+          "2": {
+            "title": "Baby dev steps",
+            "text1": "Let's start with a brief story of how Izky began his journey into the world of development. His first job was at MobyDigital, an Argentine company where he perfected the art of making web applications with Angular.",
+            "text2": "Then, his brief but intense stint at Flexxus as a full-stack developer allowed him to master REST APIs with Node.js and maintain web applications without losing his mind.",
+            "text3": "After some time and a lot of practice in development, in January 2021, he managed to consolidate his programming skills by landing a job at Globant as a Web UI. Playing in the big leagues, Izky was able to put his mastery of technologies like Angular, React, and Next.js into practice, becoming a key member of the agile team.",
+            "text4": "He has created libraries in Storybook, developed micro frontends… Our friend has proven himself in numerous technologies and tools. In addition, he has led teams, proving that he not only knows how to write code but also how to guide others through the technological jungle."
+          },
+          "3": {
+            "title": "How to train your developer",
+            "text1": "Every cinematic character must face a rigorous training phase to consolidate their skills in their field. For our character, this was crucial. That’s why he leveraged his creative mind and began looking for real problems to solve with a web solution.",
+            "text2": "This is how Bitacorizky and Calculizky were born, two applications that not only solve everyday needs but also add a touch of innovation.",
+            "text3": "Bitacorizky is a secure and private digital diary, ideal for those who want to express their thoughts without fear of being discovered. This project was born from our developer's need to have a safe and quick place to write his most fleeting thoughts and deepest reflections.",
+            "text4": "Calculizky, on the other hand, is a financial management application designed so that even the most absent-minded individuals can understand and manage their personal finances. This tool is essential for those seeking a bit of light in the dark world of finances."
+          },
+          "4": {
+            "title": "Beyond Code",
+            "text1": "When he’s not creating his next big tech project, Izky enjoys playing soccer and tennis, sports he practices with the same passion he puts into his projects. Additionally, he composes music and plays various instruments, as part of his former profession as a Music Producer. His life goal is to demonstrate that creativity and technique can coexist harmoniously, truly being multifaceted."
+          },
+          "5": {
+            "title": "Contact",
+            "text1": "If you are eager to learn more about Izky, whether in the world of development or his technological explorations, do not hesitate to get in touch. A great developer is always open to new opportunities and collaborations, and our protagonist is no exception."
+          }
+        }
+      }
     },
-    "linkedin": {
-      "href": "https://www.linkedin.com/in/nicogonzalez22/",
-      "text": "Message Izky on LinkedIn"
-    },
-    "mail": {
-      "href": "mailto:nigd22@google.com",
-      "text": "Send an email"
+    "error": {
+      "text": "🚨 This post does not exist 🚨"
     }
+  },
+  "error": {
+    "title": "Oops!",
+    "desc": "Something went wrong"
+  },
+  "notFound": {
+    "title": "Nothing here 👀",
+    "link": "Back to Home"
   },
   "footer": {
     "createdBy": "Created by ",

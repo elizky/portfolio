@@ -9,7 +9,12 @@ interface AdsProps {
 const Ads = ({ src, alt, link }: AdsProps) => {
   return (
     <Link href={link} target='blank' className='bg-gray-200 rounded-lg h-32'>
-      <Image src={src} alt={alt} objectFit='cover' style={{ height: 'inherit', objectFit:'cover' }} />
+      <Image
+        src={src}
+        alt={alt}
+        objectFit='cover'
+        style={{ height: 'inherit', objectFit: 'cover' }}
+      />
     </Link>
   );
 };
