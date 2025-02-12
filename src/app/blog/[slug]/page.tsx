@@ -1,9 +1,21 @@
-import Article from "@/components/blog/Article";
-import Title from "@/components/blog/Title";
-import FollowMe2 from "@/components/FollowMe2";
-import Footer from "@/components/Footer";
-import { LetsTalk } from "@/components/LetsTalk";
-import { Card } from "@/components/ui/card";
+import Article from '@/components/blog/Article';
+import Title from '@/components/blog/Title';
+import FollowMe2 from '@/components/FollowMe2';
+import Footer from '@/components/Footer';
+import { LetsTalk } from '@/components/LetsTalk';
+import { Card } from '@/components/ui/card';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const { slug } = params;
+
+  return {
+    title: slug.toUpperCase(),
+  };
+}
 
 const page = ({ params }: { params: { slug: string } }) => {
   const { slug } = params;

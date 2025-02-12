@@ -1,11 +1,27 @@
-import Image from "next/image";
-import { ProjectDetailPage } from "@/components/projects/ProjectPage";
-import { Card, CardContent } from "@/components/ui/card";
-import { sideProjects } from "@/lib/data";
-import { notFound } from "next/navigation";
-import { LetsTalk } from "@/components/LetsTalk";
-import FollowMe2 from "@/components/FollowMe2";
-import Footer from "@/components/Footer";
+import Image from 'next/image';
+import { ProjectDetailPage } from '@/components/projects/ProjectPage';
+import { Card, CardContent } from '@/components/ui/card';
+import { sideProjects } from '@/lib/data';
+import { notFound } from 'next/navigation';
+import { LetsTalk } from '@/components/LetsTalk';
+import FollowMe2 from '@/components/FollowMe2';
+import Footer from '@/components/Footer';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const project = sideProjects.find((p) => p.slug === params.slug);
+  const headerImage = project?.images[0] as string;
+
+  return {
+    title: project && project.title,
+    openGraph: {
+      images: [headerImage],
+    },
+  };
+}
 
 export default function Project({ params }: { params: { slug: string } }) {
   const project = sideProjects.find((p) => p.slug === params.slug);

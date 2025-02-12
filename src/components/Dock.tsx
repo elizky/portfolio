@@ -41,11 +41,12 @@ const DATA = {
 
 export async function DockFooter() {
   const localeLang = await getUserLocale();
+
   return (
     <TooltipProvider>
       <Dock
-        direction='middle'
-        className='fixed bottom-4 right-1/2 translate-x-1/2 bg-background '
+        direction="middle"
+        className="fixed bottom-4 right-1/2 translate-x-1/2 bg-background "
       >
         {DATA.navbar.map((item) => (
           <DockIcon key={item.label}>
@@ -56,10 +57,10 @@ export async function DockFooter() {
                   aria-label={item.label}
                   className={cn(
                     buttonVariants({ variant: 'ghost', size: 'icon' }),
-                    'size-12 rounded-full',
+                    'size-12 rounded-full'
                   )}
                 >
-                  <item.icon className='size-4' />
+                  <item.icon className="size-4" />
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
@@ -68,21 +69,21 @@ export async function DockFooter() {
             </Tooltip>
           </DockIcon>
         ))}
-        <Separator orientation='vertical' className='h-full' />
+        <Separator orientation="vertical" className="h-full" />
         {DATA.other.map((item) => (
           <DockIcon key={item.label}>
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
                   href={item.href}
-                  target='_blank'
+                  target="_blank"
                   aria-label={item.label}
                   className={cn(
                     buttonVariants({ variant: 'ghost', size: 'icon' }),
-                    'size-12 rounded-full',
+                    'size-12 rounded-full'
                   )}
                 >
-                  <item.icon className='size-4' />
+                  <item.icon className="size-4" />
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
@@ -91,7 +92,7 @@ export async function DockFooter() {
             </Tooltip>
           </DockIcon>
         ))}
-        <Separator orientation='vertical' className='h-full py-2' />
+        <Separator orientation="vertical" className="h-full py-2" />
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>

@@ -1,25 +1,30 @@
-import Image from "next/image";
-import { sideProjects } from "@/lib/data";
-import { Card } from "@/components/ui/card";
-import PersonalInfo from "@/components/PersonalInfo";
-import ProjectCard from "@/components/ProjectCard";
-import { LetsTalk } from "@/components/LetsTalk";
-import FollowMe2 from "@/components/FollowMe2";
-import Footer from "@/components/Footer";
-import { useMessages, useTranslations } from "next-intl";
-import { AboutMessage } from "@/lib/interfaces";
+import Image from 'next/image';
+import { sideProjects } from '@/lib/data';
+import { Card } from '@/components/ui/card';
+import PersonalInfo from '@/components/PersonalInfo';
+import ProjectCard from '@/components/ProjectCard';
+import { LetsTalk } from '@/components/LetsTalk';
+import FollowMe2 from '@/components/FollowMe2';
+import Footer from '@/components/Footer';
+import { useMessages, useTranslations } from 'next-intl';
+import { AboutMessage } from '@/lib/interfaces';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About me',
+};
 
 export default function AboutPage() {
-  const t = useTranslations("AboutMe");
-  const tProjects = useTranslations("Projects");
+  const t = useTranslations('AboutMe');
+  const tProjects = useTranslations('Projects');
   const messages = useMessages() as unknown as AboutMessage;
   const moreAbout = messages.AboutMe.bio;
 
   const aboutMe = {
-    name: "Izky",
-    avatar: "/avatar-izky.png",
-    about: t("title"),
-    bio: t("bio"),
+    name: 'Izky',
+    avatar: '/avatar-izky.png',
+    about: t('title'),
+    bio: t('bio'),
   };
 
   return (
@@ -41,7 +46,7 @@ export default function AboutPage() {
         ))}
       </section>
       <section className="px-6">
-        <h2 className="text-2xl font-semibold mb-2">{tProjects("title")}</h2>
+        <h2 className="text-2xl font-semibold mb-2">{tProjects('title')}</h2>
         <div className="space-y-4 py-4">
           {sideProjects.map(({ title, link, image }) => (
             <ProjectCard

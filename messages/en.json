@@ -108,6 +108,29 @@
         "goTo": "Live Website"
       }
     },
+    "adp_atp": {
+      "name": "ADP ATP",
+      "description": "A platform to manage a tennis ranking among friends",
+      "article": {
+        "longDescription": "ADP ATP is a platform designed to efficiently manage a tennis ranking among friends. It allows users to record matches, update rankings, and view detailed real-time statistics. Additionally, it integrates artificial intelligence to automatically generate news articles for each recorded match.",
+        "problemSubtitle": "The problem to solve",
+        "problemContent": "Managing a tennis ranking manually can be complicated and inaccurate. Without an automated platform, it is difficult to record results, update rankings correctly, and maintain a detailed history for each player. Additionally, sharing match updates with participants requires extra effort.",
+        "solutionSubtitle": "The solution",
+        "solutionContent": "ADP ATP automates ranking management, allowing players to record matches and see real-time updates. Specific challenge rules are applied to ensure a fair and transparent system. Additionally, the platform automatically generates news using artificial intelligence, providing engaging summaries for each match.",
+        "stackSubtitle": "Tech Stack",
+        "stackContent": "The frontend is developed with Next.js 15, leveraging Server Actions for a seamless experience. Tailwind CSS is used for a modern and responsive design. Prisma manages the database on Neon, while authentication is implemented with Auth.js and Google OAuth. News generation is powered by integrated artificial intelligence with Gemini and Vercel AI.",
+        "featuresSubtitle": "Key Features of ADP ATP",
+        "featuresContent": {
+          "1": "Automated match recording",
+          "2": "Dynamic ranking updates",
+          "3": "Detailed player history and statistics",
+          "4": "Integrated challenge rules for a fair ranking",
+          "5": "Automatic news generation with AI"
+        },
+        "otherProjects": "Other Projects",
+        "goTo": "Live Website"
+      }
+    },
     "underConstruction": "This project is under construction"
   },
   "TechStack": {
