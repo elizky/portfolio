@@ -107,6 +107,31 @@
         "goTo": "Ir al sitio"
       }
     },
+
+    "adp_atp": {
+      "name": "ADP ATP",
+      "description": "Una plataforma para gestionar un ranking de tenis entre amigos",
+      "article": {
+        "longDescription": "ADP ATP es una plataforma diseñada para gestionar de manera sencilla y eficiente un ranking de tenis entre amigos. Permite registrar partidos, actualizar posiciones y visualizar estadísticas detalladas en tiempo real. Además, integra inteligencia artificial para generar automáticamente noticias sobre cada partido registrado.",
+        "problemSubtitle": "El problema a resolver",
+        "problemContent": "Llevar el control de un ranking de tenis de forma manual puede ser complicado y poco preciso. Sin una plataforma automatizada, es difícil registrar los resultados, actualizar correctamente el ranking y llevar un historial detallado de cada jugador. Además, compartir actualizaciones de los partidos con los participantes requiere esfuerzo adicional.",
+        "solutionSubtitle": "La solución",
+        "solutionContent": "ADP ATP automatiza la gestión del ranking, permitiendo que los jugadores registren partidos y vean actualizaciones en tiempo real. Se aplican reglas específicas de desafíos para garantizar un sistema justo y transparente. Además, la plataforma genera automáticamente noticias con inteligencia artificial, proporcionando resúmenes atractivos de cada encuentro.",
+        "stackSubtitle": "Stack Tecnológico",
+        "stackContent": "El frontend está desarrollado con Next.js 15, utilizando Server Actions para una experiencia fluida. Tailwind CSS se emplea para un diseño moderno y responsive. Prisma gestiona la base de datos en Neon, mientras que la autenticación está implementada con Auth.js y Google OAuth. La generación de noticias se realiza con inteligencia artificial integrada con Vercel AI y Gemini.",
+        "featuresSubtitle": "Características principales de ADP ATP",
+        "featuresContent": {
+          "1": "Registro automatizado de partidos",
+          "2": "Actualización dinámica del ranking",
+          "3": "Historial y estadísticas detalladas por jugador",
+          "4": "Reglas de desafío integradas para un ranking justo",
+          "5": "Generación automática de noticias con IA"
+        },
+        "otherProjects": "Otros Proyectos",
+
+        "goTo": "Sitio en Vivo"
+      }
+    },
     "underConstruction": "Este proyecto esta en construcción"
   },
   "TechStack": {

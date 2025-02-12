@@ -1,21 +1,24 @@
-import FollowMe2 from "@/components/FollowMe2";
-import Footer from "@/components/Footer";
-import PersonalInfo from "@/components/PersonalInfo";
-import { LetsTalk } from "@/components/LetsTalk";
-import { ProjectsListPage } from "@/components/projects/ProjectsList";
-import { Card } from "@/components/ui/card";
-import { useTranslations } from "next-intl";
+import FollowMe2 from '@/components/FollowMe2';
+import Footer from '@/components/Footer';
+import PersonalInfo from '@/components/PersonalInfo';
+import { LetsTalk } from '@/components/LetsTalk';
+import { ProjectsListPage } from '@/components/projects/ProjectsList';
+import { Card } from '@/components/ui/card';
+import { useTranslations } from 'next-intl';
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'My Projects',
+};
 
 export default function Projects() {
-  const t = useTranslations("Projects");
+  const t = useTranslations('Projects');
 
   return (
     <Card className="space-y-8 pb-6">
       <PersonalInfo />
-      <ProjectsListPage
-        title={t("title")}
-        aboutProjects={t("aboutProjects")}
-      />
+      <ProjectsListPage title={t('title')} aboutProjects={t('aboutProjects')} />
       <section>
         <LetsTalk />
       </section>

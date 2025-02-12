@@ -5,6 +5,11 @@ import PersonalInfo from "@/components/PersonalInfo";
 import { LetsTalk } from "@/components/LetsTalk";
 import { Card } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'My Blog',
+};
 
 export default function Projects() {
   const t = useTranslations("Blog");

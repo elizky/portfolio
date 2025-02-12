@@ -6,6 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Errrrrrrrrooooorrrrr',
+};
+
 
 const error = () => {
   const t = useTranslations("notFound");
