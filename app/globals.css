@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 38, 36, 36;
+  --foreground: 238, 229, 218;
+
+  --card: 48, 46, 46;
+  --card-foreground: 238, 229, 218;
+
+  --popover: 48, 46, 46;
+  --popover-foreground: 238, 229, 218;
+
+  --primary: 238, 229, 218;
+  --primary-foreground: 38, 36, 36;
+
+  --secondary: 74, 72, 72;
+  --secondary-foreground: 238, 229, 218;
+
+  --muted: 74, 72, 72;
+  --muted-foreground: 188, 179, 168;
+
+  --accent: 74, 72, 72;
+  --accent-foreground: 238, 229, 218;
+
+  --destructive: 0, 63%, 31%;
+  --destructive-foreground: 210, 40%, 98%;
+
+  --border: 74, 72, 72;
+  --input: 74, 72, 72;
+  --ring: 238, 229, 218;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inconsolata);
+  }
+  h1 {
+    @apply text-3xl font-bold mb-6;
+  }
+  h2 {
+    @apply text-2xl font-bold mb-4;
+  }
+  h3 {
+    @apply text-xl font-bold mb-3;
+  }
+  p {
+    @apply mb-4;
+  }
+  a {
+    @apply text-primary hover:text-muted-foreground transition-colors;
+  }
+  hr {
+    @apply border-border;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    @apply text-foreground;
+  }
+  .prose p {
+    @apply text-foreground;
+  }
+  .prose a {
+    @apply text-primary hover:text-muted-foreground no-underline;
+  }
+  .prose strong {
+    @apply text-foreground;
+  }
+  .prose pre {
+    @apply bg-card text-card-foreground p-4 rounded-md;
+  }
+  .prose code {
+    @apply bg-card text-card-foreground px-1 py-0.5 rounded-sm;
+  }
+}
